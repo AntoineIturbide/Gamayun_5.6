@@ -106,34 +106,133 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Tree_Impact" ID="{F97E6980-A970-4C75-8345-56B9B905D816}">
+				<Event Name="Tree_Impact_Light" ID="{F97E6980-A970-4C75-8345-56B9B905D816}">
 					<ChildrenList>
 						<Action Name="Play" ID="{896C88E8-AF01-4455-9617-A774737F60C4}" ShortID="344663270" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{577F6432-0C63-492D-9A0E-E81835541610}" Global="false">
-									<ObjectRef Name="Tree_Impact" ID="{81912C0E-FF2A-4FC0-93BE-113E2E78075A}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+									<ObjectRef Name="Tree_Impact_Light" ID="{81912C0E-FF2A-4FC0-93BE-113E2E78075A}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Ground_Impact" ID="{7533C56F-F1A6-4167-B182-68553F796EEE}">
+				<Event Name="Ground_Impact_Light" ID="{7533C56F-F1A6-4167-B182-68553F796EEE}">
 					<ChildrenList>
 						<Action Name="Play" ID="{26C00313-7101-466E-B951-191D32699F4B}" ShortID="454570347" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{B41D8EE3-80A0-451B-B225-CDB5C3C39DC5}" Global="false">
-									<ObjectRef Name="Ground_Impact" ID="{3114188D-250E-4E77-976E-CE6ED4CB7DDD}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+									<ObjectRef Name="Ground_Impact_Light" ID="{3114188D-250E-4E77-976E-CE6ED4CB7DDD}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
 								</Element>
 							</ElementList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Rock_Impact" ID="{7EC97178-96E1-434C-AA97-6C11C8102777}">
+				<Event Name="Rock_Impact_Light" ID="{7EC97178-96E1-434C-AA97-6C11C8102777}">
 					<ChildrenList>
 						<Action Name="Play" ID="{CD092029-3E75-478F-88BC-DD49787513C8}" ShortID="697872750" Type="Play" Scope="One" Global="false">
 							<ElementList>
 								<Element ID="{652B24AC-7573-4360-8B95-E17582DD6FA0}" Global="false">
-									<ObjectRef Name="Rock_Impact" ID="{0819824F-261A-437D-96E8-26CE1F010691}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+									<ObjectRef Name="Rock_Impact_Light" ID="{0819824F-261A-437D-96E8-26CE1F010691}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rock_Impact_Medium" ID="{FDB4F4D8-CE42-4BCE-8724-1EC8263AACFE}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9FFAF0DA-2DC7-4389-8545-6596D1DE7AE7}" ShortID="976435557" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{659D8808-2AEB-4E29-BA71-E5586F0B7430}" Global="false">
+									<ObjectRef Name="Rock_Impact_Medium" ID="{77749816-0151-405F-A202-DBCFEC956781}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Rock_Impact_Hard" ID="{E4EA0AD4-CD46-48C0-86A7-450D54070B1C}">
+					<ChildrenList>
+						<Action Name="Play" ID="{648A9DD2-5779-45E0-8D86-F30944826FD9}" ShortID="528738307" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{42E00026-2587-4156-A9EF-F1EC3DB291E2}" Global="false">
+									<ObjectRef Name="Rock_Impact_Hard" ID="{D4920012-6308-4F55-883D-9C436DE2793F}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ground_Impact_Medium" ID="{8D018C00-65A0-4333-87C6-1723FBA90A02}">
+					<ChildrenList>
+						<Action Name="Play" ID="{3421586D-981B-40F3-AF12-5997C3769629}" ShortID="1054061885" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A1376400-2BAC-46AF-B768-CD7F37E6E65D}" Global="false">
+									<ObjectRef Name="Ground_Impact_Medium" ID="{32A0A416-C751-4371-877E-83E70D282592}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ground_Impact_Hard" ID="{4151CF08-0434-44A3-96B8-237E027B3A57}">
+					<ChildrenList>
+						<Action Name="Play" ID="{643FE558-4E47-4D05-9015-59CFE68F19A8}" ShortID="808186264" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{0943BFDB-8068-4DC6-9E2C-21472FD2B607}" Global="false">
+									<ObjectRef Name="Ground_Impact_Hard" ID="{6C33D9F8-CA59-4217-A016-344EAE5989C1}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tree_Impact_Medium" ID="{57E75DCC-0AF2-4C24-8C14-EB024F9D2F52}">
+					<ChildrenList>
+						<Action Name="Play" ID="{50A75687-B426-4525-AECA-D92143FC146B}" ShortID="369412966" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{75E0945E-4EEE-426F-AA2F-7C59E1F2FA50}" Global="false">
+									<ObjectRef Name="Tree_Impact_Medium" ID="{5FE05C25-133D-41DD-954C-1A3F4490F5E5}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Tree_Impact_Hard" ID="{69E6D8CF-506A-47FF-8732-0F1D7453A603}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5B22D28F-9449-4CBD-B7F5-E3F48ACB6812}" ShortID="180741425" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{76EEE8B8-F089-49DD-BFA4-065BE2D8D329}" Global="false">
+									<ObjectRef Name="Tree_Impact_Hard" ID="{9AB819BB-3A9E-49AB-AAF1-64235B688824}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Leaf_Impact_Light" ID="{9500F8B1-D68C-4842-AEFC-3F0414689BBD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{62C7E4A6-2931-4203-AF06-8E31683B4750}" ShortID="1049329539" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{026B8FF4-F6A2-4836-A317-F563ADC6E065}" Global="false">
+									<ObjectRef Name="Leaf_Impact_Light" ID="{974B37FC-35FB-4781-9220-330CD8361CD3}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Leaf_Impact_Medium" ID="{F2B0D1E1-50B6-44A0-994F-A906732C87FD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9D62606A-2D58-463E-8581-64D8ED163B69}" ShortID="24399318" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{F74878E6-C529-434E-B4D8-E99B222DBA5F}" Global="false">
+									<ObjectRef Name="Leaf_Impact_Medium" ID="{B9F8D1C3-08F5-477E-9D3B-B4CBC810B689}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Leaf_Impact_Hard" ID="{75DDF7F6-B606-4F00-98BD-50E245FA3D42}">
+					<ChildrenList>
+						<Action Name="Play" ID="{096FB5C8-3AEA-4C1F-828C-8CAEACC70D61}" ShortID="871951284" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{61704055-A657-4E77-8703-A9842C6F2C40}" Global="false">
+									<ObjectRef Name="Leaf_Impact_Hard" ID="{7765C2DF-6390-4555-A5C8-103218233341}" WorkUnitID="{F3DF67C2-8B80-4ABE-812F-1C4C368BE21E}"/>
 								</Element>
 							</ElementList>
 						</Action>
