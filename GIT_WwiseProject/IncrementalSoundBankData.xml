@@ -3,14 +3,28 @@
 	<Platform GUID="{157BB415-821E-41EF-8E95-4CABE086BD38}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Forest" Hash="4207031621" Timestamp="131370074897804070"/>
-				<File Name="General" Hash="2759721297" Timestamp="131371761955709107"/>
-				<File Name="Init" Hash="483593322" Timestamp="131370072607831479"/>
+				<File Name="Forest" Hash="4207031621" Timestamp="131380270126625646"/>
+				<File Name="General" Hash="2759721297" Timestamp="131380270127337538"/>
+				<File Name="Init" Hash="483593322" Timestamp="131380270127397698"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2171449853" Timestamp="131371761955784308"/>
+				<File Name="" Hash="3404115392" Timestamp="131380270127422767"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{3BD20CDF-CB80-44B8-9D36-E60AF87315DA}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Forest" Hash="4207031621" Timestamp="131380273716427660"/>
+				<File Name="General" Hash="2759721297" Timestamp="131380273716918965"/>
+				<File Name="Init" Hash="2612341572" Timestamp="131380273716974113"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3929373594" Timestamp="131380273716994166"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
