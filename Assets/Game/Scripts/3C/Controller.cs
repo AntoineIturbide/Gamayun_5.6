@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Utility;
+using Tweening;
 
 namespace Avatar2
 {
@@ -32,7 +33,19 @@ namespace Avatar2
             public Utility.Controller.AxisNegPosXbox rotationAroundY = Utility.Controller.AxisNegPosXbox.LEFT_STICK_X;
             public bool inverseRotAroundY = true;
             public float timeToReachTargetRotY = 0.75f;
-            
+
+            [Header("Camera")]
+            // Camera rotation X
+            public Utility.Controller.AxisNegPosXbox cameraRotationX = Utility.Controller.AxisNegPosXbox.RIGHT_STICK_X;
+            public bool inverseCameraRotationX = false;
+
+            // Rotation Around Y
+            public Utility.Controller.AxisNegPosXbox cameraRotationY = Utility.Controller.AxisNegPosXbox.RIGHT_STICK_Y;
+            public bool inverseCameraRotationY = false;
+            [Space(4)]
+            public float timeToReachCameraRotation = 0.5f;
+
+
             [Header("Wings")]
             public Utility.Controller.AxisPositiveXbox wings = Utility.Controller.AxisPositiveXbox.RIGHT_TRIGGER;
             //public float timeToReachTargetWings = 0.125f;
@@ -94,6 +107,8 @@ namespace Avatar2
             Utility.Controller.IInputVector<float> airPushInput;
 
             public float slow_input = 0;
+
+            public Tween<Vector2> cameraRotation = new Tween<Vector2>(Vector2.zero, UnityTick.FIXED_UPDATE, Easing.DynaEase.Out);
 
             public void Init(
                 float rotation_around_x_stick_time_to_reach_target,
@@ -166,6 +181,17 @@ namespace Avatar2
                 );
             
             state.slow_input = 1 - gamepad.GetAxisPositive(config.slow).value;
+            
+            // Camera
+            state.cameraRotation.SetTarget(
+                new Vector2(
+                    (config.inverseCameraRotationX ? -1 : 1) * gamepad.GetAxisNegPos(config.cameraRotationX).value,
+                    (config.inverseCameraRotationY ? -1 : 1) * gamepad.GetAxisNegPos(config.cameraRotationY).value
+                    )
+                );
+            state.cameraRotation.time_factor = 1 / config.timeToReachCameraRotation;
+
+            Debug.Log(state.cameraRotation.get_value());
         }
 
         private void Control(Character chara, float dt)

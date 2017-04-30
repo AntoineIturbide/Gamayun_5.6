@@ -25,8 +25,9 @@ namespace Avatar2
             
             [Header("Rotation")]
             // Rotation
-            public Vector3 rotationAroundAxisSpeed;
-            
+            public Vector3 minRotationSpeed;
+            public Vector3 maxRotationSpeed;
+
             [Header("Gravity")]
             public Vector3 ascendingGravity;
             public Vector3 descendingGravity;
@@ -94,6 +95,13 @@ namespace Avatar2
 
 
             // Stall fake gravity
+            public Tweening.Tween<float> stall_factor =
+                new Tweening.Tween<float>(
+                    0,
+                    UnityTick.FIXED_UPDATE,
+                    Easing.DynaEase.Out,
+                    1 / 0.125f
+                    );
             public Tweening.Tween<Vector3> fake_stall_gravity =
                 new Tweening.Tween<Vector3>(
                     Vector3.zero,
@@ -300,6 +308,8 @@ namespace Avatar2
                 public float time_since_last_set_on_cooldown;
                 public float ability_progress;
                 public Vector3 this_frame_translation;
+
+                public System.Action eOnCast;
             }
             public State state = new State();
             private AirPush() { }
@@ -329,6 +339,11 @@ namespace Avatar2
                 state.time_since_last_beginned_cast = current_time;
                 SetOnCooldown(current_time);
                 state.ability_progress = 0;
+
+                if(state.eOnCast != null)
+                {
+                    state.eOnCast();
+                }
             }
             public void Tick(float current_time, float dt)
             {
@@ -423,8 +438,10 @@ namespace Avatar2
             float dot = Vector3.Dot(transform.forward, Vector3.up);
             dot = Mathf.Clamp01(dot);
             float stall_factor = state.speed.get_value() / config.glidingTargetSpeed;
+            stall_factor = Mathf.Clamp01(stall_factor);
             stall_factor = 1 - stall_factor;
             stall_factor *= dot * dot;
+            state.stall_factor.SetTarget(stall_factor);
             state.fake_stall_gravity.SetTarget(config.stallGravity * stall_factor);
 
             // Slow
@@ -492,79 +509,6 @@ namespace Avatar2
             state.translation += Vector3.up * state.speed.get_value() * config.prenvetionTranslationStrenght * state.ground_hit_prevention.get_value() * dt;
 
         }
-
-#if false
-        private void MainBody_Wings_OLD(float dt)
-        {
-            // Input
-            var ctrl = config.controller;
-
-            // Wings deployment
-            // 0 = Closed
-            // 1 = Deployed
-            var wings_input = ctrl.GetWingsInput();                             // Left trigger input
-            float wings_deployment = (1 - wings_input.value);                   // Convert to target wings deployment
-            state.wings_deployment.Tick(wings_deployment, dt);                  // Refresh wings deplyment
-            wings_deployment = state.wings_deployment.state.wings_deployment;   // Retrieve refreshed wings deployment
-
-            Vector3 original_velocity = state.stored_velocity;
-            Vector3 regular_redirected_velocity = transform.forward * original_velocity.magnitude;
-            Vector3 dive_redirected_velocity = Vector3.Project(original_velocity, Vector3.up) + Vector3.ProjectOnPlane(original_velocity, Vector3.up).magnitude * Vector3.ProjectOnPlane(transform.forward, Vector3.up).normalized;
-            Vector3 redirected_velocity = Vector3.Lerp(dive_redirected_velocity, regular_redirected_velocity, wings_deployment);
-
-            // Gravity
-            float ascending_descending_ratio = Vector3.Dot(Vector3.up, transform.forward) * 0.5f + 0.5f;
-            ascending_descending_ratio *= wings_deployment;
-            Vector3 gravity = Vector3.Lerp(config.descendingGravity, config.ascendingGravity, ascending_descending_ratio);
-            gravity = Vector3.Lerp(gravity, config.diveGravity, 1 - wings_deployment);
-            state.stored_velocity += gravity * dt;
-
-            // ARCHIMED
-            float archimed_strengh = 0.75f;
-            // Archimed Ratio
-            // 0 = perpendicular to ground
-            // 1 = parallel to ground
-            float archimed_ratio = 1 - Mathf.Abs(Vector3.Dot(Vector3.up, transform.forward));
-            archimed_ratio *= archimed_strengh;
-            archimed_ratio *= wings_deployment;
-
-            // Redirected toward facing direction
-            float time_to_reach_target_redirected_velocity = 0.125f;
-            float to_target_redirected_velocity = Vector3.Angle(state.stored_velocity, redirected_velocity);
-            float angle_redirected_velocity = time_to_reach_target_redirected_velocity > 0 ? (to_target_redirected_velocity * dt) / time_to_reach_target_redirected_velocity : to_target_redirected_velocity;
-            state.stored_velocity = Vector3.RotateTowards(state.stored_velocity, redirected_velocity, angle_redirected_velocity * Mathf.Deg2Rad, 0);
-
-            // Archimed Acceleration 
-            float down_force = Mathf.Min(state.stored_velocity.y, 0);
-            float compensated_force = down_force * (1 - archimed_ratio);
-            float time_to_reach_target = 0.125f;
-            float to_target = Mathf.Abs(down_force - compensated_force);
-            float archimed_acceleration = time_to_reach_target > 0 ? (to_target * dt) / time_to_reach_target : to_target;
-            // Archimed Force
-            Vector3 archimed_force = Vector3.up * archimed_acceleration;
-            // Apply archimed
-            state.stored_velocity += archimed_force;
-
-            var input = ctrl.GetWingsInput();
-            bool triggerAirPush = input.last_value < input.value;
-            if (triggerAirPush)
-            {
-                Debug.Log("TryCast");
-                try
-                {
-                    state.air_push.TryCast(Time.fixedTime);
-                }
-                catch (AirPush.AbilityIsOnCooldownExeption e)
-                {
-                    //Debug.Log(e.Message);
-                }
-            }
-            state.air_push.Tick(Time.fixedTime, dt);
-            Vector3 air_push_translation = state.air_push.GetThisFrameTranslation();
-            air_push_translation = transform.rotation * air_push_translation;
-            state.translation += air_push_translation;
-        }
-#endif
 
         private void MainBody_SpeedCorrection()
         {
@@ -696,6 +640,8 @@ namespace Avatar2
             // Regular Rotation //
             //////////////////////
 
+            Vector3 rotation_speed = GetRotationSpeed();
+
             // Rotation X (Left-Right)
             // Player input
             float rot_around_x = ctrl.rotation_around_x.get_value();
@@ -709,12 +655,12 @@ namespace Avatar2
                 state.ground_hit_prevention.get_value() * config.prenvetionRotationStrenght
                 );
 
-            rot_around_x *= config.rotationAroundAxisSpeed.x;
+            rot_around_x *= rotation_speed.x;
             rotation *= Quaternion.AngleAxis(rot_around_x * dt, Vector3.right);
 
             // Rotation Z (Dorso-Ventral)
             float rot_around_y = ctrl.rotation_around_y.get_value();
-            rot_around_y *= config.rotationAroundAxisSpeed.z;
+            rot_around_y *= rotation_speed.z;
             Quaternion world_rotation = Quaternion.AngleAxis(rot_around_y * dt, Vector3.up);
             rotation *= (Quaternion.Inverse(transform.rotation) * world_rotation) * transform.rotation;
             //rotation *= Quaternion.AngleAxis(rot_around_y * dt, Vector3.up);
@@ -802,6 +748,11 @@ namespace Avatar2
             // Apply position
             transform.rotation = new_character_rotation;
         }
+
+        public float GetRelativeSpeed()
+        {
+            return Mathf.InverseLerp(config.get_min_target_speed(), config.get_max_target_speed(), state.speed.get_value());
+        }
         
         public float GetTargetSpeed()
         {
@@ -833,7 +784,13 @@ namespace Avatar2
             return target_speed;
         }
 
-#endregion
+        public Vector3 GetRotationSpeed()
+        {
+            float speed_interpolation = Mathf.InverseLerp(config.get_min_target_speed(), config.get_max_target_speed(), state.speed.get_value());
+            return Vector3.Lerp(config.minRotationSpeed, config.maxRotationSpeed, speed_interpolation);
+        }
+
+        #endregion
 
     }
 }
