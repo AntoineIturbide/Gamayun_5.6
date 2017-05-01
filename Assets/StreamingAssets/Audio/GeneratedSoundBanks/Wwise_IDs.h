@@ -17,7 +17,12 @@ namespace AK
         static const AkUniqueID AMB_FOREST_STOP = 333335808U;
         static const AkUniqueID AMB_GRASS_START = 1396033513U;
         static const AkUniqueID AMB_GRASS_STOP = 3242293763U;
-        static const AkUniqueID AVATAR_WINGS_FLAP = 445196183U;
+        static const AkUniqueID AVATAR_BRAKE = 2307498474U;
+        static const AkUniqueID AVATAR_GLIDE_START = 1305901021U;
+        static const AkUniqueID AVATAR_GLIDE_STOP = 4204744159U;
+        static const AkUniqueID AVATAR_SCREAM = 645719890U;
+        static const AkUniqueID AVATAR_STALLING = 3606416579U;
+        static const AkUniqueID CLOUDS = 3464232719U;
         static const AkUniqueID CRYSTAL_GET = 1128271304U;
         static const AkUniqueID CRYSTAL_GLOW = 2431342447U;
         static const AkUniqueID DUST_START = 2898349872U;
@@ -39,16 +44,15 @@ namespace AK
         static const AkUniqueID TOUCH_GRASS_STOP = 557071456U;
         static const AkUniqueID TOUCH_LEAF_START = 1456296260U;
         static const AkUniqueID TOUCH_LEAF_STOP = 2199972856U;
-        static const AkUniqueID TOUCH_WATER_START = 2988057335U;
-        static const AkUniqueID TOUCH_WATER_STOP = 4224829277U;
+        static const AkUniqueID TOUCH_WATERFALL_START = 948172004U;
+        static const AkUniqueID TOUCH_WATERFALL_STOP = 513496600U;
         static const AkUniqueID TREE_IMPACT_HARD = 3292957914U;
         static const AkUniqueID TREE_IMPACT_LIGHT = 1806523559U;
         static const AkUniqueID TREE_IMPACT_MEDIUM = 1471919116U;
-        static const AkUniqueID WATERFALL_START = 121420192U;
-        static const AkUniqueID WATERFALL_STOP = 2656094668U;
         static const AkUniqueID WIND_GUST = 431171811U;
         static const AkUniqueID WIND_HIGH_START = 548087415U;
         static const AkUniqueID WIND_HIGH_STOP = 344778205U;
+        static const AkUniqueID WINGS_FLAP = 3791449267U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
@@ -60,6 +64,7 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
+        static const AkUniqueID AVATAR = 3636883490U;
         static const AkUniqueID FOREST = 491961918U;
         static const AkUniqueID GENERAL = 133642231U;
     } // namespace BANKS

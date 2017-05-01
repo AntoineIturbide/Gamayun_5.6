@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9773F303-B87C-4943-A35C-FC168BF44764}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Avatar" ID="{9773F303-B87C-4943-A35C-FC168BF44764}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Avatar_Brake" ID="{1BBC5A73-F8D9-490B-8293-0897D5A175CD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{0878B024-2EAD-4D3C-8265-3C8AE0E76F2D}" ShortID="207902013" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A59EE6B4-4E3E-4DCD-8922-A8181EE6723B}" Global="false">
+									<ObjectRef Name="Avatar_Brake" ID="{F4CC1E50-53AB-4EE6-BD6C-28F4FC0FB677}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Avatar_Glide_Start" ID="{4D0B925E-80A3-441C-B777-3787304CAD88}">
+					<ChildrenList>
+						<Action Name="Play" ID="{53745035-7F31-41ED-B7DC-DD20F8D0DC94}" ShortID="316342732" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{DCF17F4C-A831-4E36-9669-63225EC2BE99}" Global="false">
+									<ObjectRef Name="Avatar_Glide" ID="{443E53A4-ED58-4041-BA1D-4D231343E1BB}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Avatar_Scream" ID="{2E6DE5A9-9C0D-441B-A4DB-3A9407EAA846}">
+					<ChildrenList>
+						<Action Name="Play" ID="{D9D6C791-56E1-4AED-9A56-C984802B3428}" ShortID="310769435" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BBF7EFFF-7C52-4AE8-9236-AB8E07D4BF62}" Global="false">
+									<ObjectRef Name="Avatar_Scream" ID="{F41D89AB-787C-4174-BD24-022B32C28E87}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Avatar_Stalling" ID="{E96EFA90-9433-4672-ACE8-524BC1292D9A}">
+					<ChildrenList>
+						<Action Name="Play" ID="{9B70B555-815A-460E-BA33-CA8583A63008}" ShortID="160952090" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{295D6B92-8AE1-4B30-813B-E15E6E213C09}" Global="false">
+									<ObjectRef Name="Avatar_Stalling" ID="{31C63C55-79B7-47AB-B6C7-2CAFB805DA9B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Wings_flap" ID="{729F7A92-E848-4EC4-8580-F5141DCCF124}">
+					<ChildrenList>
+						<Action Name="Play" ID="{59C754F2-4769-4C4E-BBB7-D0B20782D733}" ShortID="851999500" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{56220903-CAFE-4CE9-9C87-468E981225DE}" Global="false">
+									<ObjectRef Name="Wings_Flap" ID="{7B25823E-C48E-4A0E-92D0-8D9D34C7DF56}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Avatar_Glide_Stop" ID="{4ABA65ED-2A5B-4DC6-9AAC-A84A2C194DB1}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{7F134008-ED6C-4C2B-AAA5-CD48EA14E442}" ShortID="292878202" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{8D0AE234-356C-4846-B795-E932AD922CB9}" Global="false">
+									<ObjectRef Name="Avatar_Glide" ID="{443E53A4-ED58-4041-BA1D-4D231343E1BB}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

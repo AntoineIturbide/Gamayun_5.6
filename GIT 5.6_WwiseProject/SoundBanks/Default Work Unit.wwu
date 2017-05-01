@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE912D3F-1880-4FBD-A200-A10728862365}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{FE912D3F-1880-4FBD-A200-A10728862365}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Forest" ID="{31D668DB-FCF2-47DA-995A-3902BBC21F48}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Forest" ID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Forest" ID="{B22E9A64-B0DC-4CA1-A101-EA821147CB68}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="General" ID="{C261796E-6268-4E05-9EC5-D7186893AB25}">
+					<ObjectInclusionList>
+						<ObjectRef Name="General" ID="{A5BE934C-520E-4699-B561-28E711671F42}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="General" ID="{6EC09CA1-B87F-4D67-9864-0A3D6FBC399F}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Avatar" ID="{C88A5538-247B-48BC-8BA2-08BC064C3BA3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Avatar" ID="{20E8FFD2-9BDE-405B-9397-1DC89199BF9B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Avatar" ID="{9773F303-B87C-4943-A35C-FC168BF44764}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

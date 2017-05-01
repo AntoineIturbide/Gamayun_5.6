@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Forest" ID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="AMB_Forest_Start" ID="{1E9BD271-7ADE-4288-AD4C-2168FB97EF84}">
+					<ChildrenList>
+						<Action Name="Play" ID="{74D38B75-D4E6-4BB4-9512-CF9B0D892C9A}" ShortID="76989043" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{9A22A3EC-24CE-4C31-91EC-4D199F82C72E}" Global="false">
+									<ObjectRef Name="AMB_Forest" ID="{A6A50A6A-0751-46D9-8A74-6E13BD25A991}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Forest_Stop" ID="{43C194BA-E10B-4C4D-BDBE-9EAC8AFFEAD7}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{B973363C-D9B6-4155-829C-8397F454DEF2}" ShortID="56167910" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{DFFAC260-ECB4-45E8-8A53-EACAFEC6906C}" Global="false">
+									<ObjectRef Name="AMB_Forest" ID="{A6A50A6A-0751-46D9-8A74-6E13BD25A991}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Grass_Start" ID="{CC9326F7-EC09-4C55-B3E4-3FF91B2469A9}">
+					<ChildrenList>
+						<Action Name="Play" ID="{88064C55-6B0F-4E2F-95B5-94DA5DC318D8}" ShortID="190792617" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{7EE9B0A6-0B38-43DC-8AF2-A3B5B2EFC3B8}" Global="false">
+									<ObjectRef Name="AMB_Grass" ID="{BCA42E27-7339-413B-8A4A-0B0B4D188A87}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="AMB_Grass_Stop" ID="{32CEE03C-15A6-4536-A047-44D924896A95}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{DC9FB8B4-9838-4D30-BE6B-8AA8D38BE53C}" ShortID="528476987" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{564A74A9-87D2-4025-AEBC-06CE62BF3752}" Global="false">
+									<ObjectRef Name="AMB_Grass" ID="{BCA42E27-7339-413B-8A4A-0B0B4D188A87}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Flower_Grow" ID="{845CA389-03D9-4C4C-835F-3E79D976C358}">
+					<ChildrenList>
+						<Action Name="Play" ID="{17598E31-B8B1-4F6A-8BD2-FFF6BA58CDE5}" ShortID="148055910" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{30BADB64-D8A9-448A-961E-3195C5A41D19}" Global="false">
+									<ObjectRef Name="Flower_Grow" ID="{B5C29D80-A33F-4164-9D9B-5E0B22DED333}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="River_Start" ID="{3A1DCC02-0357-4118-A33A-70A7A6429AD2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{CB243A40-37D5-481B-95E5-D3718296B2E9}" ShortID="741340135" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{E684CE2A-CF95-4B56-BBD8-3FA08F70F1BC}" Global="false">
+									<ObjectRef Name="River" ID="{168931A4-D139-424C-9C8A-66D6FA2C5E91}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="River_Stop" ID="{683CF6DE-FBAB-45D7-87D9-92406FE4190A}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{60366BAB-0259-4922-9221-905ECF2C1E92}" ShortID="721486004" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{22C44BF4-293F-4F20-B87F-8F37ABA55374}" Global="false">
+									<ObjectRef Name="River" ID="{168931A4-D139-424C-9C8A-66D6FA2C5E91}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Touch_Grass_Start" ID="{C6EC0C4F-D982-4E0B-B183-D475A07F5650}">
+					<ChildrenList>
+						<Action Name="Play" ID="{51BD1B52-59F6-4E4C-B74E-A501F98C3D96}" ShortID="264444948" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{91DFDCD9-6F20-405B-ACD4-41DE2DCE87D6}" Global="false">
+									<ObjectRef Name="Grass_Touch" ID="{31A3CE3A-3AAC-4EA9-911D-A960F9E30D4B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Touch_Grass_Stop" ID="{DDCC343A-D9C3-44D1-A118-D5B00E79FDA4}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{A9C2CDEA-E945-48D5-B4F2-DA503AC3774F}" ShortID="140174613" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B962B8F7-2F3D-4F78-80FC-551445CB1529}" Global="false">
+									<ObjectRef Name="Grass_Touch" ID="{31A3CE3A-3AAC-4EA9-911D-A960F9E30D4B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Touch_Leaf_Start" ID="{A4DACFE3-C490-4304-A135-B2237D530E66}">
+					<ChildrenList>
+						<Action Name="Play" ID="{09E0A64F-156B-4F9B-AEB2-6F17AB5E5365}" ShortID="882252165" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{47D5CADF-9249-4CFC-8FCD-532C6B0E626C}" Global="false">
+									<ObjectRef Name="Leaf_Touch" ID="{80F589E3-1DF1-45EC-B5DC-6F0FEF336EFA}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Touch_Leaf_Stop" ID="{8D9420EB-EC18-4F3B-941B-50D75BDC7E25}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{A892E00D-4D3E-4C9A-B03B-B25D2F0CDCF8}" ShortID="766160652" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{3008EBC8-4F35-4BFF-93B5-2C8722877529}" Global="false">
+									<ObjectRef Name="Leaf_Touch" ID="{80F589E3-1DF1-45EC-B5DC-6F0FEF336EFA}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Touch_Waterfall_Start" ID="{9C10638A-474F-4003-8BB8-094448FE5CF7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4CB5BEF0-4D4C-4DC8-9102-E14F9AFF1855}" ShortID="519894757" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{02E75021-8F65-4482-9C3F-6E6AB3FE2884}" Global="false">
+									<ObjectRef Name="Waterfall" ID="{B12B47FE-18E9-4294-AF23-E865C6907FD1}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Touch_Waterfall_Stop" ID="{4EA963EB-8543-4F73-A3C2-25F7C5329B6F}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{AB598B62-5573-4B2E-A6BF-091DA71C33E2}" ShortID="648129551" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{9F12D778-F1C9-440A-B4AC-067F8F89858E}" Global="false">
+									<ObjectRef Name="Waterfall" ID="{B12B47FE-18E9-4294-AF23-E865C6907FD1}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
