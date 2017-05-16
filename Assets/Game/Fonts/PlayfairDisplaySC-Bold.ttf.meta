@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 743545ac992dddc49bdfe9e56483f3a5
+timeCreated: 1494950182
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Playfair Display SC
+  fontNames:
+  - Playfair Display SC
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 4ba902f2a41721f4fbaac9242380d8a9, type: 3}
+  - {fileID: 12800000, guid: 1455e7a5efea90a40adfe0734b0860c4, type: 3}
+  - {fileID: 12800000, guid: 2e4cd3fc737108546b3ffd4822e6a5df, type: 3}
+  - {fileID: 12800000, guid: 37fecbdd88735664392e98fc6bb7a19c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
