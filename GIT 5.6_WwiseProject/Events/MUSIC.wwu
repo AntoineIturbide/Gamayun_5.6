@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="MUSIC" ID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Music_Ambient_Day" ID="{2011E58C-D007-46CF-AE92-36EBE9EC2746}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4DCE15D0-72B8-4AC3-BBEB-A898E46BA5BC}" ShortID="548186188" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A6746EDC-FF04-4B62-A6D8-87B081159472}" Global="false">
+									<ObjectRef Name="Music_Ambient_Day" ID="{E399E467-FB41-466E-9BE5-0F46A26B0776}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Ambient_Night" ID="{D60DD17A-D5D0-4B62-8E61-2F353B95F682}">
+					<ChildrenList>
+						<Action Name="Play" ID="{31E65863-BDC9-4187-AE24-1B6ECF015DA1}" ShortID="713858847" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{122AB205-17FB-4FEF-980C-D6B084E44F66}" Global="false">
+									<ObjectRef Name="Music_Ambient_Night" ID="{3ADD3B68-7F33-4C95-B17A-73CC9C055005}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Ambient_Transition" ID="{D9F437DA-4C13-476A-A2F4-8E875F418B74}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6ED5E87A-FAD4-47A7-A5CA-0B52D8EF0F16}" ShortID="372917591" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{512A77FA-E1CC-4AD0-8C1B-21345AA1097E}" Global="false">
+									<ObjectRef Name="Music_Ambient_Transition" ID="{ACCCAECD-CACB-4F93-AE57-74578D467A26}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Day_Loop" ID="{31B92ACC-60E9-4D7E-9B0B-6B460F860AA7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{4BF7E7DA-F0B9-48A5-B231-3BBDCB2FDDB7}" ShortID="677294238" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{788A0566-F84D-4F9B-8FD9-1A5D82B173DE}" Global="false">
+									<ObjectRef Name="Music_Day_Loop" ID="{4299AEC1-D7D1-4B69-B2EA-77457042FED6}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Night_Loop" ID="{708ADB00-BFF7-45AB-8219-F43529EC9D0B}">
+					<ChildrenList>
+						<Action Name="Play" ID="{784A499A-E0AF-495C-992E-1809B5D93358}" ShortID="1072862295" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CC2ADF17-EE48-4192-8F46-CADD6D94A1BA}" Global="false">
+									<ObjectRef Name="Music_Night_Loop" ID="{89310E53-716A-4DEA-ABE7-4DE1C210B2DE}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Music_Transition_Loop" ID="{E7D22643-C77B-4E78-A4B0-AB52B024F2F5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B2DA3CB7-FF99-4943-AE9D-0D258245F33A}" ShortID="177539499" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{78BBCD91-66CA-4B32-8FA9-0CA511D42F13}" Global="false">
+									<ObjectRef Name="Music_Transition_Loop" ID="{5C6E0550-736F-4957-BEA5-83C8090DFEE1}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Ambient_Day" ID="{F0EDB922-14F7-4EF5-9EAA-805A4B764C31}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{A04AC7A9-F372-47C3-8B72-9D24D8094B8F}" ShortID="864035330" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{19586FA9-27ED-499C-93C2-236A1B061717}" Global="false">
+									<ObjectRef Name="Music_Ambient_Day" ID="{E399E467-FB41-466E-9BE5-0F46A26B0776}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Ambient_Night" ID="{C3CA77BA-ED71-46DF-8E4E-CBAA4E35FA87}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{703FEEEE-BD02-4C29-92E4-33652CF95B8F}" ShortID="87945720" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{26876EA8-E4D7-49C2-921D-AA685A7735D2}" Global="false">
+									<ObjectRef Name="Music_Ambient_Night" ID="{3ADD3B68-7F33-4C95-B17A-73CC9C055005}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Ambient_Transition" ID="{D1054A9E-56A1-4F11-8B3A-17963E543700}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C74465C9-892F-442A-9026-111C745B3512}" ShortID="595844274" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{F00F959C-924A-419F-9DEA-6F3CE88E3FD4}" Global="false">
+									<ObjectRef Name="Music_Ambient_Transition" ID="{ACCCAECD-CACB-4F93-AE57-74578D467A26}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Day_Loop" ID="{B5A7D232-6FA5-4C65-9BFC-FB2511D62188}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{CD073F17-D4F8-4DAC-B2CB-8A9B66E68C30}" ShortID="686827113" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{A426D79B-D9EE-43E4-B08E-4C136FA55C21}" Global="false">
+									<ObjectRef Name="Music_Day_Loop" ID="{4299AEC1-D7D1-4B69-B2EA-77457042FED6}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Night_Loop" ID="{9AFF3FB6-0D60-4303-80F0-7C1C5C267213}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{9810B789-C9E3-42AD-B000-C97FAF3F4014}" ShortID="1055177532" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{D57D3C31-6D6F-4CAE-A1A0-5060FA2C39BA}" Global="false">
+									<ObjectRef Name="Music_Night_Loop" ID="{89310E53-716A-4DEA-ABE7-4DE1C210B2DE}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Music_Transition_Loop" ID="{F387753C-3C48-465C-97F4-84C3722D9A3D}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{67395C84-A94C-4D47-B9DC-45EFEB9F0B91}" ShortID="886904615" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CA0082F1-9332-47D2-A0F7-A3D2EF5DBDA2}" Global="false">
+									<ObjectRef Name="Music_Transition_Loop" ID="{5C6E0550-736F-4957-BEA5-83C8090DFEE1}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

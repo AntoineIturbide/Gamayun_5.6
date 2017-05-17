@@ -387,5 +387,50 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="664125257" Name="Play_Music_Ambient_Day" ObjectPath="\Events\MUSIC\Play_Music_Ambient_Day"/>
+				<Event Id="452942157" Name="Play_Music_Ambient_Night" ObjectPath="\Events\MUSIC\Play_Music_Ambient_Night"/>
+				<Event Id="4056959168" Name="Play_Music_Ambient_Transition" ObjectPath="\Events\MUSIC\Play_Music_Ambient_Transition"/>
+				<Event Id="1193682133" Name="Play_Music_Day_Loop" ObjectPath="\Events\MUSIC\Play_Music_Day_Loop"/>
+				<Event Id="1631299433" Name="Play_Music_Night_Loop" ObjectPath="\Events\MUSIC\Play_Music_Night_Loop"/>
+				<Event Id="1248412740" Name="Play_Music_Transition_Loop" ObjectPath="\Events\MUSIC\Play_Music_Transition_Loop"/>
+				<Event Id="805792179" Name="Stop_Music_Ambient_Day" ObjectPath="\Events\MUSIC\Stop_Music_Ambient_Day" MaxAttenuation="0.000000"/>
+				<Event Id="65164911" Name="Stop_Music_Ambient_Night" ObjectPath="\Events\MUSIC\Stop_Music_Ambient_Night" MaxAttenuation="0.000000"/>
+				<Event Id="306079138" Name="Stop_Music_Ambient_Transition" ObjectPath="\Events\MUSIC\Stop_Music_Ambient_Transition" MaxAttenuation="0.000000"/>
+				<Event Id="3675636195" Name="Stop_Music_Day_Loop" ObjectPath="\Events\MUSIC\Stop_Music_Day_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="3752373807" Name="Stop_Music_Night_Loop" ObjectPath="\Events\MUSIC\Stop_Music_Night_Loop" MaxAttenuation="0.000000"/>
+				<Event Id="2774131682" Name="Stop_Music_Transition_Loop" ObjectPath="\Events\MUSIC\Stop_Music_Transition_Loop" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="283307502" Language="SFX">
+					<ShortName>Gamayun_Day_Loop_Ambient_01.wav</ShortName>
+					<Path>SFX\Gamayun_Day_Loop_Ambient_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="407326109" Language="SFX">
+					<ShortName>Gamayun_Night_Loop_01.wav</ShortName>
+					<Path>SFX\Gamayun_Night_Loop_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="407452258" Language="SFX">
+					<ShortName>Gamayun_Night_Loop_Ambient_01.wav</ShortName>
+					<Path>SFX\Gamayun_Night_Loop_Ambient_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="427303219" Language="SFX">
+					<ShortName>Gamayun_Day_Loop_01.wav</ShortName>
+					<Path>SFX\Gamayun_Day_Loop_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="675762479" Language="SFX">
+					<ShortName>Gamayun_Transition_Loop_01.wav</ShortName>
+					<Path>SFX\Gamayun_Transition_Loop_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="964885007" Language="SFX">
+					<ShortName>Gamayun_Transition_Loop_Ambient_01.wav</ShortName>
+					<Path>SFX\Gamayun_Transition_Loop_Ambient_01_4D7BABE6.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

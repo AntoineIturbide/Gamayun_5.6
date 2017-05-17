@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	65164911	Stop_Music_Ambient_Night			\MUSIC\Stop_Music_Ambient_Night	
+	306079138	Stop_Music_Ambient_Transition			\MUSIC\Stop_Music_Ambient_Transition	
+	452942157	Play_Music_Ambient_Night			\MUSIC\Play_Music_Ambient_Night	
+	664125257	Play_Music_Ambient_Day			\MUSIC\Play_Music_Ambient_Day	
+	805792179	Stop_Music_Ambient_Day			\MUSIC\Stop_Music_Ambient_Day	
+	1193682133	Play_Music_Day_Loop			\MUSIC\Play_Music_Day_Loop	
+	1248412740	Play_Music_Transition_Loop			\MUSIC\Play_Music_Transition_Loop	
+	1631299433	Play_Music_Night_Loop			\MUSIC\Play_Music_Night_Loop	
+	2774131682	Stop_Music_Transition_Loop			\MUSIC\Stop_Music_Transition_Loop	
+	3675636195	Stop_Music_Day_Loop			\MUSIC\Stop_Music_Day_Loop	
+	3752373807	Stop_Music_Night_Loop			\MUSIC\Stop_Music_Night_Loop	
+	4056959168	Play_Music_Ambient_Transition			\MUSIC\Play_Music_Ambient_Transition	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	283307502	Gamayun_Day_Loop_Ambient_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Windows\SFX\Gamayun_Day_Loop_Ambient_01_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Ambient_Day\Gamayun_Day_Loop_Ambient_01\Gamayun_Day_Loop_Ambient_01		3301966
+	407326109	Gamayun_Night_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Windows\SFX\Gamayun_Night_Loop_01_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Night_Loop\Gamayun_Night_Loop_01\Gamayun_Night_Loop_01		3397275
+	407452258	Gamayun_Night_Loop_Ambient_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Windows\SFX\Gamayun_Night_Loop_Ambient_01_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Ambient_Night\Gamayun_Night_Loop_Ambient_01\Gamayun_Night_Loop_Ambient_01		3092966
+	427303219	Gamayun_Day_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Windows\SFX\Gamayun_Day_Loop_01_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Day_Loop\Gamayun_Day_Loop_01\Gamayun_Day_Loop_01		3706746
+	675762479	Gamayun_Transition_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Windows\SFX\Gamayun_Transition_Loop_01_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Transition_Loop\Gamayun_Transition_Loop_01\Gamayun_Transition_Loop_01		1961750
+	964885007	Gamayun_Transition_Loop_Ambient_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Windows\SFX\Gamayun_Transition_Loop_Ambient_01_4D7BABE6.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Ambient_Transition\Gamayun_Transition_Loop_Ambient_01\Gamayun_Transition_Loop_Ambient_01		1815364
+
