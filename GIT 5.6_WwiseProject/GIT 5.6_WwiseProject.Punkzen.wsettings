@@ -20,15 +20,25 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="DAAAAA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="D1M9qpJYVkyh44hGXcr/Rw=="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="22jWMfL82keZWjkCu8IfSG55YcJoYgVOnsXXGGiTqyU4VYrIeyS8SIuiCLwGTDuj"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="OFWKyHskvEiLogi8Bkw7o9to1jHy/NpHmVo5ArvCH0hueWHCaGIFTp7F1xhok6slZZA6bRKyLEii+Cxyl7aaVg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="kLifOSWPU0iZZ6EZqBnz7gCDJBH/////nBgfDS6kmUiZVkcJ9jd/XQGDJBH/////"/>
+				<Property Name="Interactive Music\x64_{13408BDF-1F47-4F80-AF39-B1AFD8E3BE3E} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4qd2ImdWA5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{46205CE0-40CE-49D4-A28B-ECC36EE40CA2} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAcBBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{565FC899-765A-4286-B0D2-286DB8C90498} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4qd2ImdWA5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\WatchMgr\WatchesVersion" Type="int32" Value="5"/>
 				<Property Name="MonitoringManager\WatchMgr\x64_GameSyncWatches" Type="string" Value=""/>
 				<Property Name="MonitoringManager\WatchMgr\x64_Watches" Type="string" Value=""/>
+				<Property Name="Music Transition List\{3ADD3B68-7F33-4C95-B17A-73CC9C055005}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{4299AEC1-D7D1-4B69-B2EA-77457042FED6}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{44ED7A5F-B7FF-4928-920F-E0B47634A196}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{5C6E0550-736F-4957-BEA5-83C8090DFEE1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{89310E53-716A-4DEA-ABE7-4DE1C210B2DE}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{ACCCAECD-CACB-4F93-AE57-74578D467A26}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{E399E467-FB41-466E-9BE5-0F46A26B0776}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
 				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>

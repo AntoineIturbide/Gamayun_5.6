@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	645719890	Avatar_Scream			\Avatar\Avatar_Scream	
+	1305901021	Avatar_Glide_Start			\Avatar\Avatar_Glide_Start	
+	2307498474	Avatar_Brake			\Avatar\Avatar_Brake	
+	3606416579	Avatar_Stalling			\Avatar\Avatar_Stalling	
+	3791449267	Wings_flap			\Avatar\Wings_flap	
+	4204744159	Avatar_Glide_Stop			\Avatar\Avatar_Glide_Stop	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	5105053	SFX_Flap_Wings_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_04		9397
+	24540918	SFX_Flap_Wings_07	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_07_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_07		9845
+	302913003	SFX_Flap_Wings_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_01		9451
+	364690969	SFX_Flap_Wings_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_02		9648
+	880334337	SFX_Flap_Wings_06	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_06		9903
+	953653286	SFX_Flap_Wings_05	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_05		10120
+	986099434	SFX_Flap_Wings_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_03		9856
+

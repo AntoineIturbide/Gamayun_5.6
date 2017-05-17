@@ -34,12 +34,24 @@ namespace AK
         static const AkUniqueID LEAF_IMPACT_HARD = 350283794U;
         static const AkUniqueID LEAF_IMPACT_LIGHT = 3870513327U;
         static const AkUniqueID LEAF_IMPACT_MEDIUM = 1820380804U;
+        static const AkUniqueID PLAY_MUSIC_AMBIENT_DAY = 664125257U;
+        static const AkUniqueID PLAY_MUSIC_AMBIENT_NIGHT = 452942157U;
+        static const AkUniqueID PLAY_MUSIC_AMBIENT_TRANSITION = 4056959168U;
+        static const AkUniqueID PLAY_MUSIC_DAY_LOOP = 1193682133U;
+        static const AkUniqueID PLAY_MUSIC_NIGHT_LOOP = 1631299433U;
+        static const AkUniqueID PLAY_MUSIC_TRANSITION_LOOP = 1248412740U;
         static const AkUniqueID RIVER_START = 2427671096U;
         static const AkUniqueID RIVER_STOP = 717165636U;
         static const AkUniqueID ROCK_IMPACT_HARD = 3237213113U;
         static const AkUniqueID ROCK_IMPACT_LIGHT = 1555724626U;
         static const AkUniqueID ROCK_IMPACT_MEDIUM = 1649834555U;
         static const AkUniqueID SPEED_START = 2040520663U;
+        static const AkUniqueID STOP_MUSIC_AMBIENT_DAY = 805792179U;
+        static const AkUniqueID STOP_MUSIC_AMBIENT_NIGHT = 65164911U;
+        static const AkUniqueID STOP_MUSIC_AMBIENT_TRANSITION = 306079138U;
+        static const AkUniqueID STOP_MUSIC_DAY_LOOP = 3675636195U;
+        static const AkUniqueID STOP_MUSIC_NIGHT_LOOP = 3752373807U;
+        static const AkUniqueID STOP_MUSIC_TRANSITION_LOOP = 2774131682U;
         static const AkUniqueID TOUCH_GRASS_START = 3076372940U;
         static const AkUniqueID TOUCH_GRASS_STOP = 557071456U;
         static const AkUniqueID TOUCH_LEAF_START = 1456296260U;
@@ -67,6 +79,7 @@ namespace AK
         static const AkUniqueID AVATAR = 3636883490U;
         static const AkUniqueID FOREST = 491961918U;
         static const AkUniqueID GENERAL = 133642231U;
+        static const AkUniqueID MUSIC = 3991942870U;
     } // namespace BANKS
 
     namespace BUSSES

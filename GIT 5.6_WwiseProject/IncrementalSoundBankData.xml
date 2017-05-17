@@ -7,11 +7,12 @@
 				<File Name="Forest" Hash="720915036" Timestamp="131381336721476415"/>
 				<File Name="General" Hash="3877116501" Timestamp="131381336721862443"/>
 				<File Name="Init" Hash="483593322" Timestamp="131381336721997804"/>
+				<File Name="Music" Hash="602639135" Timestamp="131395056166396738"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="171221031" Timestamp="131381336722027883"/>
+				<File Name="" Hash="4044052628" Timestamp="131395056166532101"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

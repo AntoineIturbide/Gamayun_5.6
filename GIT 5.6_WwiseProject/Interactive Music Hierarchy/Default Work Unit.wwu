@@ -1,6 +1,621 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" SchemaVersion="75">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="Music_Day_Loop" ID="{4299AEC1-D7D1-4B69-B2EA-77457042FED6}" ShortID="330657456">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MUSIC" ID="{85AFA16C-E997-44CC-BD05-A7F95FAC44A3}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Gamayun_Day_Loop_01" ID="{565FC899-765A-4286-B0D2-286DB8C90498}" ShortID="889926094">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="138666.666666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Gamayun_Day_Loop_01" ID="{F26C518F-EAB3-4A99-A1E6-A49A52698A16}" ShortID="572930438">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gamayun_Day_Loop_01" ID="{64A2BEC9-E65B-4B5F-9C54-7012A678307E}" ShortID="427303219">
+											<Language>SFX</Language>
+											<AudioFile>Gamayun_Day_Loop_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{16F2D1E7-97C4-4355-A8BF-87D8F603BD54}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9FC46FC4-CD30-4745-BDC5-A08FE9F07AB0}">
+											<ClipList>
+												<MusicClip Name="Gamayun_Day_Loop_01" ID="{FBC23432-38B1-4133-B71C-BBA463FD25B6}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="138666.666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Gamayun_Day_Loop_01" ID="{64A2BEC9-E65B-4B5F-9C54-7012A678307E}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{CE6D33B3-91FD-4C30-9434-CECACDC212BD}"/>
+								<MusicCue Name="Exit Cue" ID="{F1B93199-A6AB-4F17-97AF-30C58ED5B8F0}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="138666.666666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{AF0A1F14-1B01-4C31-A922-6AFA50B48DE2}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{8811DDFF-79CB-4C66-B18F-73493CD0008E}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{B1582E23-C736-4784-8EC8-D556448BC701}" ShortID="224888503">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{22022EFE-A88C-41C5-8D6F-B1C86797ED61}" ShortID="268622073">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Gamayun_Day_Loop_01" ID="{565FC899-765A-4286-B0D2-286DB8C90498}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Music_Night_Loop" ID="{89310E53-716A-4DEA-ABE7-4DE1C210B2DE}" ShortID="1047626861">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MUSIC" ID="{85AFA16C-E997-44CC-BD05-A7F95FAC44A3}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Gamayun_Night_Loop_01" ID="{46205CE0-40CE-49D4-A28B-ECC36EE40CA2}" ShortID="900604844">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="128000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Gamayun_Night_Loop_01" ID="{55968A67-6823-4569-B80E-0B3404616C7C}" ShortID="810171692">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gamayun_Night_Loop_01" ID="{FC009BA6-DC89-4143-AE9B-763E649E0FFC}" ShortID="407326109">
+											<Language>SFX</Language>
+											<AudioFile>Gamayun_Night_Loop_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{844CB64C-932B-47BC-808D-5668CC620A2C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{57CB6C7A-97CC-4027-91B5-FF68C4A8FF33}">
+											<ClipList>
+												<MusicClip Name="Gamayun_Night_Loop_01" ID="{5955073E-2152-4431-AF6D-0363BBBA1739}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="128000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Gamayun_Night_Loop_01" ID="{FC009BA6-DC89-4143-AE9B-763E649E0FFC}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{EB0A4ADD-17CC-4B18-8C0F-2441463E8472}"/>
+								<MusicCue Name="Exit Cue" ID="{BD721112-C835-4B13-82A9-8AB9BF533F45}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="128000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{66BE6850-00D0-4653-9362-F555C3F14ADD}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{C42FE653-A3FE-4A8A-BB57-3A13460C4556}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{FA1174F4-5FE2-4635-949B-FEB1101617CE}" ShortID="1020982774">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{9AE352C9-D06F-432B-ACC6-45890086920F}" ShortID="1028577384">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Gamayun_Night_Loop_01" ID="{46205CE0-40CE-49D4-A28B-ECC36EE40CA2}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Music_Transition_Loop" ID="{5C6E0550-736F-4957-BEA5-83C8090DFEE1}" ShortID="285619946">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MUSIC" ID="{85AFA16C-E997-44CC-BD05-A7F95FAC44A3}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Gamayun_Transition_Loop_01" ID="{39106675-BE51-4E17-9B5C-601F46F2C1E9}" ShortID="849919797">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="74666.6666666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Gamayun_Transition_Loop_01" ID="{02B9D550-AE1A-46F5-913C-4E2E1DADF32F}" ShortID="824969728">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gamayun_Transition_Loop_01" ID="{BB4FBB5A-6877-4BCB-A3EF-A70D7E63757F}" ShortID="675762479">
+											<Language>SFX</Language>
+											<AudioFile>Gamayun_Transition_Loop_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DBD546C4-0760-4781-9479-B9205F8D5172}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{79E0DBA2-0CD6-45CB-8E0A-31DCE8B6FBA8}">
+											<ClipList>
+												<MusicClip Name="Gamayun_Transition_Loop_01" ID="{DD6038AD-D729-4DF9-98FA-D2DE4CBDDB39}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="74666.6666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Gamayun_Transition_Loop_01" ID="{BB4FBB5A-6877-4BCB-A3EF-A70D7E63757F}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D01D4FBC-4B23-4748-8BF1-DD420823EC36}"/>
+								<MusicCue Name="Exit Cue" ID="{08C049D5-1304-4DE5-9DAF-B20AF1029485}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="74666.6666666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{52A8EF02-5C5B-40AD-8E6A-CBAA526680AD}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{890C13CB-263E-4D42-BA1E-D955B9558CC6}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{DA696DE1-6761-49D6-B6C8-CDB8468F7465}" ShortID="674262081">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{A9A4C861-B0A6-4AA7-A74C-97D15EB79146}" ShortID="157505369">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Gamayun_Transition_Loop_01" ID="{39106675-BE51-4E17-9B5C-601F46F2C1E9}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Music_Ambient_Day" ID="{E399E467-FB41-466E-9BE5-0F46A26B0776}" ShortID="144443858">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MUSIC" ID="{85AFA16C-E997-44CC-BD05-A7F95FAC44A3}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Gamayun_Day_Loop_Ambient_01" ID="{13408BDF-1F47-4F80-AF39-B1AFD8E3BE3E}" ShortID="1006365750">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="138666.666666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Gamayun_Day_Loop_Ambient_01" ID="{44ED7A5F-B7FF-4928-920F-E0B47634A196}" ShortID="251837227">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gamayun_Day_Loop_Ambient_01" ID="{7F4CA184-5264-4D0F-A1B1-DE7A3EF6D31C}" ShortID="283307502">
+											<Language>SFX</Language>
+											<AudioFile>Gamayun_Day_Loop_Ambient_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{6E3CF5F4-7D7B-4E42-B32B-A2A439C8DAFD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{2FE47D01-1682-4F82-8462-67007E30968B}">
+											<ClipList>
+												<MusicClip Name="Gamayun_Day_Loop_Ambient_01" ID="{38718619-4AAA-4FE8-A0C5-263F558F5F13}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="138666.666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Gamayun_Day_Loop_Ambient_01" ID="{7F4CA184-5264-4D0F-A1B1-DE7A3EF6D31C}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{FA97DDE5-9D19-440C-8066-055BB35AF237}"/>
+								<MusicCue Name="Exit Cue" ID="{ADCFC047-936E-4C4A-9204-4201089B6B1E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="138666.666666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{07ED0FD4-917D-4BFE-A3B4-9595CC8C02D3}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{A061ED27-8BE5-4F7B-A267-539A5A04EE29}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{985A8BCC-C3AD-45D7-9001-FB222840B0A1}" ShortID="1020887480">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{3B21433B-D3CB-439D-A5E8-18CDE57755D1}" ShortID="851477936">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Gamayun_Day_Loop_Ambient_01" ID="{13408BDF-1F47-4F80-AF39-B1AFD8E3BE3E}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Music_Ambient_Night" ID="{3ADD3B68-7F33-4C95-B17A-73CC9C055005}" ShortID="114187890">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MUSIC" ID="{85AFA16C-E997-44CC-BD05-A7F95FAC44A3}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Gamayun_Night_Loop_Ambient_01" ID="{CE0359EE-F652-457B-914B-5B8AE269862C}" ShortID="41703232">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="128000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Gamayun_Night_Loop_Ambient_01" ID="{DD66FBD7-A973-4B62-B1AD-6D14C74C74C9}" ShortID="553436418">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gamayun_Night_Loop_Ambient_01" ID="{643178A1-E6E8-47AB-8CB4-4F6C18991A45}" ShortID="407452258">
+											<Language>SFX</Language>
+											<AudioFile>Gamayun_Night_Loop_Ambient_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A335950A-64EF-4E27-A61D-672E832D2432}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{A3B2DD47-A39F-45A5-B553-DA6F59884E60}">
+											<ClipList>
+												<MusicClip Name="Gamayun_Night_Loop_Ambient_01" ID="{AC66B8A5-8A2B-452A-AED1-FCB4FB3A22D5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="128000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Gamayun_Night_Loop_Ambient_01" ID="{643178A1-E6E8-47AB-8CB4-4F6C18991A45}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E996486E-9D00-4445-B538-916AD549B1BA}"/>
+								<MusicCue Name="Exit Cue" ID="{094964AA-8DF6-44D7-BBB5-67FD46F2560E}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="128000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{9D80D247-1EAD-40DD-8B20-327B3823A599}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{9BD9B279-76B2-497E-9AE0-F376CCF2B165}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{2BBD874A-DF73-43FE-A513-4F9759123537}" ShortID="796147031">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{E9110A7C-9FCD-4AD2-B04A-92836D68159E}" ShortID="798529464">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Gamayun_Night_Loop_Ambient_01" ID="{CE0359EE-F652-457B-914B-5B8AE269862C}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Music_Ambient_Transition" ID="{ACCCAECD-CACB-4F93-AE57-74578D467A26}" ShortID="730620697">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="90"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MUSIC" ID="{85AFA16C-E997-44CC-BD05-A7F95FAC44A3}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Gamayun_Transition_Loop_Ambient_01" ID="{DED92D0B-A81E-49E1-856B-1AB1AF3699B9}" ShortID="329783945">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="74666.6666666667"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Gamayun_Transition_Loop_Ambient_01" ID="{7511DB82-B234-4A76-AC5A-B10503BB3520}" ShortID="104070089">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Gamayun_Transition_Loop_Ambient_01" ID="{4B7E0D4F-E376-4236-872E-A3711E684419}" ShortID="964885007">
+											<Language>SFX</Language>
+											<AudioFile>Gamayun_Transition_Loop_Ambient_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{55A4D982-B141-44AC-A236-611E3D93EB47}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{8394656A-3CC4-47D0-AECE-C11E2F6315D6}">
+											<ClipList>
+												<MusicClip Name="Gamayun_Transition_Loop_Ambient_01" ID="{447C42D1-8A2E-4732-90B6-CDBCFF26D4D9}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="74666.6666666667"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Gamayun_Transition_Loop_Ambient_01" ID="{4B7E0D4F-E376-4236-872E-A3711E684419}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{9425DB3F-377E-4CF8-9EC6-451C8658F99D}"/>
+								<MusicCue Name="Exit Cue" ID="{6802C0A4-A181-4D0F-AA55-F4C6118A4E01}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="74666.6666666667"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{BBCB3E73-9270-4EE7-928B-B9D7EDEAC83D}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{49C07170-52DA-477C-A278-9D57AA04F998}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{563FDBCE-28B6-421C-99A7-7E7E242A79A1}" ShortID="623924629">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{9E22B073-CA7F-4927-86F7-446ADD646773}" ShortID="670369431">
+									<PropertyList>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="Gamayun_Transition_Loop_Ambient_01" ID="{DED92D0B-A81E-49E1-856B-1AB1AF3699B9}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
