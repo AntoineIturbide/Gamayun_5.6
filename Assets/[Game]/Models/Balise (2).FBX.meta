@@ -1,0 +1,169 @@
+fileFormatVersion: 2
+guid: 4b078214781631c48bdb089bc34f5c87
+timeCreated: 1495014461
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gemstone_1378
+    100004: Gemstone_1379
+    100006: Gemstone_1380
+    100008: Gemstone_1381
+    100010: Gemstone_1382
+    100012: Gemstone_1383
+    100014: Gemstone_1384
+    100016: Gemstone_1385
+    100018: Gemstone_1386
+    100020: Gemstone_1387
+    100022: Gemstone_1388
+    100024: Gemstone_1389
+    100026: Gemstone_1390
+    100028: Gemstone_1391
+    100030: Gemstone_1392
+    100032: Gemstone_1394
+    100034: Gemstone_1395
+    100036: Gemstone_1396
+    400000: //RootNode
+    400002: Gemstone_1378
+    400004: Gemstone_1379
+    400006: Gemstone_1380
+    400008: Gemstone_1381
+    400010: Gemstone_1382
+    400012: Gemstone_1383
+    400014: Gemstone_1384
+    400016: Gemstone_1385
+    400018: Gemstone_1386
+    400020: Gemstone_1387
+    400022: Gemstone_1388
+    400024: Gemstone_1389
+    400026: Gemstone_1390
+    400028: Gemstone_1391
+    400030: Gemstone_1392
+    400032: Gemstone_1394
+    400034: Gemstone_1395
+    400036: Gemstone_1396
+    2300000: Gemstone_1378
+    2300002: Gemstone_1379
+    2300004: Gemstone_1380
+    2300006: Gemstone_1381
+    2300008: Gemstone_1382
+    2300010: Gemstone_1383
+    2300012: Gemstone_1384
+    2300014: Gemstone_1385
+    2300016: Gemstone_1386
+    2300018: Gemstone_1387
+    2300020: Gemstone_1388
+    2300022: Gemstone_1389
+    2300024: Gemstone_1390
+    2300026: Gemstone_1391
+    2300028: Gemstone_1392
+    2300030: Gemstone_1394
+    2300032: Gemstone_1395
+    2300034: Gemstone_1396
+    3300000: Gemstone_1378
+    3300002: Gemstone_1379
+    3300004: Gemstone_1380
+    3300006: Gemstone_1381
+    3300008: Gemstone_1382
+    3300010: Gemstone_1383
+    3300012: Gemstone_1384
+    3300014: Gemstone_1385
+    3300016: Gemstone_1386
+    3300018: Gemstone_1387
+    3300020: Gemstone_1388
+    3300022: Gemstone_1389
+    3300024: Gemstone_1390
+    3300026: Gemstone_1391
+    3300028: Gemstone_1392
+    3300030: Gemstone_1394
+    3300032: Gemstone_1395
+    3300034: Gemstone_1396
+    4300000: Gemstone_1378
+    4300002: Gemstone_1379
+    4300004: Gemstone_1380
+    4300006: Gemstone_1381
+    4300008: Gemstone_1382
+    4300010: Gemstone_1383
+    4300012: Gemstone_1384
+    4300014: Gemstone_1385
+    4300016: Gemstone_1386
+    4300018: Gemstone_1387
+    4300020: Gemstone_1388
+    4300022: Gemstone_1389
+    4300024: Gemstone_1390
+    4300026: Gemstone_1391
+    4300028: Gemstone_1392
+    4300030: Gemstone_1394
+    4300032: Gemstone_1395
+    4300034: Gemstone_1396
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

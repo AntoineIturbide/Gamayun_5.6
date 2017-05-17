@@ -413,6 +413,12 @@ namespace Avatar2
             MainBody_RotationTick(dt);
             MainBody_RotationCorrectionTick(dt);
 
+
+            // Correct correction
+            Vector3 eulerRot = transform.rotation.eulerAngles;
+            eulerRot.z = Mathf.Floor((eulerRot.z / 180f) + 0.5f) * 180f;
+            transform.rotation = Quaternion.Euler(eulerRot);
+
             MainBody_ApplyTransform();
         }
 
@@ -518,6 +524,15 @@ namespace Avatar2
             // Set target speed
             state.speed.SetTarget(target_speed);
 
+            // Time factor
+            float time_factor = GetSpeedTimeFactor(target_speed);
+
+            // Apply time factor to tween
+            state.speed.time_factor = time_factor;
+        }
+
+        private float GetSpeedTimeFactor(float target_speed)
+        {
             // Set time factor depending on gain or loss of speed
             bool is_gain = target_speed > state.speed.current_value;
             float time_factor;
@@ -528,15 +543,22 @@ namespace Avatar2
             else
             {
                 time_factor = 1f / config.speedLossFactor;
+
+
+                float dot = Vector3.Dot(transform.forward, Vector3.up);
+                dot = dot * 0.5f + 0.5f;
+                dot *= dot;
+                dot *= 2f;
+                Debug.Log(dot);
+                time_factor *= dot;
             }
-            const float slow_factor_strenght = 4f;
-            
+
             // Set time factor depending on slow factor
+            const float slow_factor_strenght = 4f;
             float slow_factor = 1 + (1 - this.slow_factor.get_value()) * slow_factor_strenght;
             time_factor *= slow_factor;
 
-            // Apply time factor to tween
-            state.speed.time_factor = time_factor;
+            return time_factor;
         }
 
         private void MainBody_RotationCorrectionTick(float dt)
