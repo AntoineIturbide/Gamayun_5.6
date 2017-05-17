@@ -191,7 +191,7 @@ namespace Avatar2
                 );
             state.cameraRotation.time_factor = 1 / config.timeToReachCameraRotation;
 
-            Debug.Log(state.cameraRotation.get_value());
+            //Debug.Log(state.cameraRotation.get_value());
         }
 
         private void Control(Character chara, float dt)
