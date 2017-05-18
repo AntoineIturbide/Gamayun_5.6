@@ -34,6 +34,7 @@ namespace AK
         static const AkUniqueID LEAF_IMPACT_HARD = 350283794U;
         static const AkUniqueID LEAF_IMPACT_LIGHT = 3870513327U;
         static const AkUniqueID LEAF_IMPACT_MEDIUM = 1820380804U;
+        static const AkUniqueID PLAY_INTERACTIVE_MUSIC = 309245722U;
         static const AkUniqueID PLAY_MUSIC_AMBIENT_DAY = 664125257U;
         static const AkUniqueID PLAY_MUSIC_AMBIENT_NIGHT = 452942157U;
         static const AkUniqueID PLAY_MUSIC_AMBIENT_TRANSITION = 4056959168U;
@@ -46,6 +47,7 @@ namespace AK
         static const AkUniqueID ROCK_IMPACT_LIGHT = 1555724626U;
         static const AkUniqueID ROCK_IMPACT_MEDIUM = 1649834555U;
         static const AkUniqueID SPEED_START = 2040520663U;
+        static const AkUniqueID STOP_INTERACTIVE_MUSIC = 2547783896U;
         static const AkUniqueID STOP_MUSIC_AMBIENT_DAY = 805792179U;
         static const AkUniqueID STOP_MUSIC_AMBIENT_NIGHT = 65164911U;
         static const AkUniqueID STOP_MUSIC_AMBIENT_TRANSITION = 306079138U;
@@ -66,6 +68,23 @@ namespace AK
         static const AkUniqueID WIND_HIGH_STOP = 344778205U;
         static const AkUniqueID WINGS_FLAP = 3791449267U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC
+        {
+            static const AkUniqueID GROUP = 3991942870U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DAY = 311764537U;
+                static const AkUniqueID END = 529726532U;
+                static const AkUniqueID NIGHT = 1011622525U;
+                static const AkUniqueID TRANSITION = 1865857008U;
+            } // namespace STATE
+        } // namespace MUSIC
+
+    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {

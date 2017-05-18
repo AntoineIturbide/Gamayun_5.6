@@ -392,12 +392,14 @@
 			<ShortName>Music</ShortName>
 			<Path>Music.bnk</Path>
 			<IncludedEvents>
+				<Event Id="309245722" Name="Play_Interactive_Music" ObjectPath="\Events\MUSIC\Play_Interactive_Music"/>
 				<Event Id="664125257" Name="Play_Music_Ambient_Day" ObjectPath="\Events\MUSIC\Play_Music_Ambient_Day"/>
 				<Event Id="452942157" Name="Play_Music_Ambient_Night" ObjectPath="\Events\MUSIC\Play_Music_Ambient_Night"/>
 				<Event Id="4056959168" Name="Play_Music_Ambient_Transition" ObjectPath="\Events\MUSIC\Play_Music_Ambient_Transition"/>
 				<Event Id="1193682133" Name="Play_Music_Day_Loop" ObjectPath="\Events\MUSIC\Play_Music_Day_Loop"/>
 				<Event Id="1631299433" Name="Play_Music_Night_Loop" ObjectPath="\Events\MUSIC\Play_Music_Night_Loop"/>
 				<Event Id="1248412740" Name="Play_Music_Transition_Loop" ObjectPath="\Events\MUSIC\Play_Music_Transition_Loop"/>
+				<Event Id="2547783896" Name="Stop_Interactive_Music" ObjectPath="\Events\MUSIC\Stop_Interactive_Music" MaxAttenuation="0.000000"/>
 				<Event Id="805792179" Name="Stop_Music_Ambient_Day" ObjectPath="\Events\MUSIC\Stop_Music_Ambient_Day" MaxAttenuation="0.000000"/>
 				<Event Id="65164911" Name="Stop_Music_Ambient_Night" ObjectPath="\Events\MUSIC\Stop_Music_Ambient_Night" MaxAttenuation="0.000000"/>
 				<Event Id="306079138" Name="Stop_Music_Ambient_Transition" ObjectPath="\Events\MUSIC\Stop_Music_Ambient_Transition" MaxAttenuation="0.000000"/>
@@ -406,9 +408,65 @@
 				<Event Id="2774131682" Name="Stop_Music_Transition_Loop" ObjectPath="\Events\MUSIC\Stop_Music_Transition_Loop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="53016298" Language="SFX">
+					<ShortName>M_Night_S_07.wav</ShortName>
+					<Path>SFX\M_Night_S_07_4D7BABE6.wem</Path>
+				</File>
+				<File Id="57091306" Language="SFX">
+					<ShortName>M_Day_S_08.wav</ShortName>
+					<Path>SFX\M_Day_S_08_4D7BABE6.wem</Path>
+				</File>
+				<File Id="76416870" Language="SFX">
+					<ShortName>M_Night_S_03.wav</ShortName>
+					<Path>SFX\M_Night_S_03_4D7BABE6.wem</Path>
+				</File>
+				<File Id="86450301" Language="SFX">
+					<ShortName>M_Night_S_02.wav</ShortName>
+					<Path>SFX\M_Night_S_02_4D7BABE6.wem</Path>
+				</File>
+				<File Id="145093433" Language="SFX">
+					<ShortName>M_Night_S_13.wav</ShortName>
+					<Path>SFX\M_Night_S_13_4D7BABE6.wem</Path>
+				</File>
+				<File Id="187364273" Language="SFX">
+					<ShortName>M_Day_S_05.wav</ShortName>
+					<Path>SFX\M_Day_S_05_4D7BABE6.wem</Path>
+				</File>
+				<File Id="261513952" Language="SFX">
+					<ShortName>M_Night_S_08.wav</ShortName>
+					<Path>SFX\M_Night_S_08_4D7BABE6.wem</Path>
+				</File>
+				<File Id="266663880" Language="SFX">
+					<ShortName>M_Transition_S_06.wav</ShortName>
+					<Path>SFX\M_Transition_S_06_4D7BABE6.wem</Path>
+				</File>
+				<File Id="266860722" Language="SFX">
+					<ShortName>M_Transition_S_05.wav</ShortName>
+					<Path>SFX\M_Transition_S_05_4D7BABE6.wem</Path>
+				</File>
 				<File Id="283307502" Language="SFX">
 					<ShortName>Gamayun_Day_Loop_Ambient_01.wav</ShortName>
 					<Path>SFX\Gamayun_Day_Loop_Ambient_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="342358198" Language="SFX">
+					<ShortName>M_Day_S_02.wav</ShortName>
+					<Path>SFX\M_Day_S_02_4D7BABE6.wem</Path>
+				</File>
+				<File Id="353484601" Language="SFX">
+					<ShortName>M_Day_S_09.wav</ShortName>
+					<Path>SFX\M_Day_S_09_4D7BABE6.wem</Path>
+				</File>
+				<File Id="381830328" Language="SFX">
+					<ShortName>M_Day_S_11.wav</ShortName>
+					<Path>SFX\M_Day_S_11_4D7BABE6.wem</Path>
+				</File>
+				<File Id="403280818" Language="SFX">
+					<ShortName>M_Transition_S_03.wav</ShortName>
+					<Path>SFX\M_Transition_S_03_4D7BABE6.wem</Path>
+				</File>
+				<File Id="404967017" Language="SFX">
+					<ShortName>M_Night_S_12.wav</ShortName>
+					<Path>SFX\M_Night_S_12_4D7BABE6.wem</Path>
 				</File>
 				<File Id="407326109" Language="SFX">
 					<ShortName>Gamayun_Night_Loop_01.wav</ShortName>
@@ -422,13 +480,89 @@
 					<ShortName>Gamayun_Day_Loop_01.wav</ShortName>
 					<Path>SFX\Gamayun_Day_Loop_01_4D7BABE6.wem</Path>
 				</File>
+				<File Id="430094383" Language="SFX">
+					<ShortName>M_Transition_S_04.wav</ShortName>
+					<Path>SFX\M_Transition_S_04_4D7BABE6.wem</Path>
+				</File>
+				<File Id="430265443" Language="SFX">
+					<ShortName>M_End_S_01.wav</ShortName>
+					<Path>SFX\M_End_S_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="440551579" Language="SFX">
+					<ShortName>M_Day_S_06.wav</ShortName>
+					<Path>SFX\M_Day_S_06_4D7BABE6.wem</Path>
+				</File>
+				<File Id="483254490" Language="SFX">
+					<ShortName>M_Night_S_01.wav</ShortName>
+					<Path>SFX\M_Night_S_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="512530046" Language="SFX">
+					<ShortName>M_Day_S_01.wav</ShortName>
+					<Path>SFX\M_Day_S_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="554965911" Language="SFX">
+					<ShortName>M_Transition_S_01.wav</ShortName>
+					<Path>SFX\M_Transition_S_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="610142042" Language="SFX">
+					<ShortName>M_Night_S_04.wav</ShortName>
+					<Path>SFX\M_Night_S_04_4D7BABE6.wem</Path>
+				</File>
+				<File Id="646967185" Language="SFX">
+					<ShortName>M_Day_S_12.wav</ShortName>
+					<Path>SFX\M_Day_S_12_4D7BABE6.wem</Path>
+				</File>
 				<File Id="675762479" Language="SFX">
 					<ShortName>Gamayun_Transition_Loop_01.wav</ShortName>
 					<Path>SFX\Gamayun_Transition_Loop_01_4D7BABE6.wem</Path>
 				</File>
+				<File Id="676243512" Language="SFX">
+					<ShortName>M_Day_S_04.wav</ShortName>
+					<Path>SFX\M_Day_S_04_4D7BABE6.wem</Path>
+				</File>
+				<File Id="724594571" Language="SFX">
+					<ShortName>M_Day_S_03.wav</ShortName>
+					<Path>SFX\M_Day_S_03_4D7BABE6.wem</Path>
+				</File>
+				<File Id="731999556" Language="SFX">
+					<ShortName>M_Night_S_11.wav</ShortName>
+					<Path>SFX\M_Night_S_11_4D7BABE6.wem</Path>
+				</File>
+				<File Id="748039402" Language="SFX">
+					<ShortName>M_Night_S_10.wav</ShortName>
+					<Path>SFX\M_Night_S_10_4D7BABE6.wem</Path>
+				</File>
+				<File Id="839710238" Language="SFX">
+					<ShortName>M_Night_S_05.wav</ShortName>
+					<Path>SFX\M_Night_S_05_4D7BABE6.wem</Path>
+				</File>
+				<File Id="881642888" Language="SFX">
+					<ShortName>M_Transition_S_02.wav</ShortName>
+					<Path>SFX\M_Transition_S_02_4D7BABE6.wem</Path>
+				</File>
+				<File Id="894617536" Language="SFX">
+					<ShortName>M_Night_S_06.wav</ShortName>
+					<Path>SFX\M_Night_S_06_4D7BABE6.wem</Path>
+				</File>
+				<File Id="903686319" Language="SFX">
+					<ShortName>M_Transition_S_07.wav</ShortName>
+					<Path>SFX\M_Transition_S_07_4D7BABE6.wem</Path>
+				</File>
 				<File Id="964885007" Language="SFX">
 					<ShortName>Gamayun_Transition_Loop_Ambient_01.wav</ShortName>
 					<Path>SFX\Gamayun_Transition_Loop_Ambient_01_4D7BABE6.wem</Path>
+				</File>
+				<File Id="998158186" Language="SFX">
+					<ShortName>M_Day_S_10.wav</ShortName>
+					<Path>SFX\M_Day_S_10_4D7BABE6.wem</Path>
+				</File>
+				<File Id="1034782215" Language="SFX">
+					<ShortName>M_Day_S_07.wav</ShortName>
+					<Path>SFX\M_Day_S_07_4D7BABE6.wem</Path>
+				</File>
+				<File Id="1052533694" Language="SFX">
+					<ShortName>M_Night_S_09.wav</ShortName>
+					<Path>SFX\M_Night_S_09_4D7BABE6.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

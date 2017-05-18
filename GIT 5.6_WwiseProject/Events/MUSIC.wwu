@@ -171,6 +171,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Interactive_Music" ID="{3B673EFD-46FE-4711-9570-282E828BC39F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{C10DB6D9-F002-46FB-A20F-C3A5CC1DB2A3}" ShortID="1038447092" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{B52597A8-B7D8-46B8-A03D-28B1D2E0A511}" Global="false">
+									<ObjectRef Name="MUSIC_INTERACTIVE" ID="{92818C38-F4A1-473E-9ED3-2932033AFE33}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Interactive_Music" ID="{E610676C-A843-4ED2-8326-7C31710A36F4}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{B927DC5B-0B76-4238-BA12-CB8A9A777525}" ShortID="189574559" Type="Stop" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{CFD669DD-CDC3-4EBB-A67D-A6CDC63C6C9B}" Global="false">
+									<ObjectRef Name="MUSIC_INTERACTIVE" ID="{92818C38-F4A1-473E-9ED3-2932033AFE33}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

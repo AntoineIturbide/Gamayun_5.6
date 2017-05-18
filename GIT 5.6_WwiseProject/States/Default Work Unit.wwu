@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{9C02FC04-9643-4ACA-8DF2-365CFA9AFBAD}" SchemaVersion="75">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{9C02FC04-9643-4ACA-8DF2-365CFA9AFBAD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{9C02FC04-9643-4ACA-8DF2-365CFA9AFBAD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MUSIC" ID="{09F92001-7EA9-4E4F-80A3-C20DD889196D}">
+					<ChildrenList>
+						<State Name="None" ID="{F05B733F-FFF6-4851-9F8A-A025FBCE3DD5}"/>
+						<State Name="DAY" ID="{EE244296-6827-475D-81A0-E85B8EB62FD2}"/>
+						<State Name="NIGHT" ID="{9BFCE955-79E8-4AD3-B219-D6BF0F20CF36}"/>
+						<State Name="TRANSITION" ID="{FFB76DB2-5FA1-4264-B1E1-2F1B01031036}"/>
+						<State Name="END" ID="{4B4F9482-78E8-47D9-A677-56D8A7A52AB8}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

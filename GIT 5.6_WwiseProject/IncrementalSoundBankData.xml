@@ -6,13 +6,13 @@
 				<File Name="Avatar" Hash="2441562473" Timestamp="131381336721957697"/>
 				<File Name="Forest" Hash="720915036" Timestamp="131381336721476415"/>
 				<File Name="General" Hash="3877116501" Timestamp="131381336721862443"/>
-				<File Name="Init" Hash="483593322" Timestamp="131381336721997804"/>
-				<File Name="Music" Hash="602639135" Timestamp="131395056166396738"/>
+				<File Name="Init" Hash="2384968274" Timestamp="131396007888650257"/>
+				<File Name="Music" Hash="330038666" Timestamp="131396007888555006"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="4044052628" Timestamp="131395056166532101"/>
+				<File Name="" Hash="3355153094" Timestamp="131396007888685348"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
