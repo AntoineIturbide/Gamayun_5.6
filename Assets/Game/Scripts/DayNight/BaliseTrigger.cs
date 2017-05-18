@@ -23,7 +23,11 @@ public class BaliseTrigger : MonoBehaviour
 	{
 		if(other.tag == "Player")
 		{
-			if(!isDay)
+			GameObject particle = Instantiate(particleSpawn, transform.position + transform.up * 30f, transform.rotation);
+			Destroy(particle, 3f);
+
+			AkSoundEngine.PostEvent(eventName, gameObject);
+			if (!isDay)
 			{
 				isDay = true;
 				if(eOnBaliseTriggered != null)
@@ -32,10 +36,7 @@ public class BaliseTrigger : MonoBehaviour
 				}
 				goToNight.isDay = isDay;
 			}
-			GameObject particle = Instantiate(particleSpawn, transform.position + transform.up * 30f, transform.rotation);
-			Destroy(particle, 3f);
-
-			AkSoundEngine.PostEvent(eventName, gameObject);
+			
 		}
 	}
 }

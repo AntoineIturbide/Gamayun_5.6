@@ -12,6 +12,7 @@ public class DayNightSong : MonoBehaviour {
 	void Start ()
 	{
 		AkSoundEngine.PostEvent("Play" + night, gameObject);
+		AkSoundEngine.SetState("MUSIC", "NIGHT");
 	}
 	
 	// Update is called once per frame
