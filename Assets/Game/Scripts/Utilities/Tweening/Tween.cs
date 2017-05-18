@@ -104,7 +104,7 @@ namespace Easing
         }
 
         // Ease Out
-        const float out_min = 0.015625f;
+        const float out_min = 0.00001f;
         public static float Out(float current, float target, float dt, float factor)
         {
             float delta = Mathf.Abs(target - current);

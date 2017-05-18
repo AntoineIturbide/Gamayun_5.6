@@ -4,7 +4,6 @@
 
 using UnityEngine;
 
-[DisallowMultipleComponent]
 [RequireComponent(typeof(Camera)), ExecuteInEditMode]
 [AddComponentMenu("Image Effects/Lutify")]
 public class Lutify : MonoBehaviour
@@ -18,7 +17,7 @@ public class Lutify : MonoBehaviour
 
 	[Tooltip("The texture to use as a lookup table. Size should be: height = sqrt(width)")]
 	public Texture2D LookupTexture;
-
+	
 	[Tooltip("Shows a before/after comparison by splitting the screen in half.")]
 	public SplitMode Split = SplitMode.None;
 

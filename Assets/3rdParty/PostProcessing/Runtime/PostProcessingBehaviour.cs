@@ -13,8 +13,14 @@ namespace UnityEngine.PostProcessing
     [AddComponentMenu("Effects/Post-Processing Behaviour", -1)]
     public class PostProcessingBehaviour : MonoBehaviour
     {
-        // Inspector fields
-        public PostProcessingProfile profile;
+
+		[HideInInspector]
+		public bool _GamayunBool;
+		public RenderTexture _GamayunTexture;
+		public PostProcessingBehaviour _GamayunPostPro;
+
+		// Inspector fields
+		public PostProcessingProfile profile;
 
         public Func<Vector2, Matrix4x4> jitteredMatrixFunc;
 
@@ -51,7 +57,14 @@ namespace UnityEngine.PostProcessing
 
         void OnEnable()
         {
-            m_CommandBuffers = new Dictionary<Type, KeyValuePair<CameraEvent, CommandBuffer>>();
+			//if(gameObject.name == "Unity Camera")
+			//{
+			//	_GamayunBool = true;
+			//}
+			//_GamayunPostPro = transform.parent.FindChild("Unity Camera (1)").GetComponent<PostProcessingBehaviour>();
+
+
+			m_CommandBuffers = new Dictionary<Type, KeyValuePair<CameraEvent, CommandBuffer>>();
             m_MaterialFactory = new MaterialFactory();
             m_RenderTextureFactory = new RenderTextureFactory();
             m_Context = new PostProcessingContext();
@@ -126,7 +139,8 @@ namespace UnityEngine.PostProcessing
             m_Bloom.Init(context, profile.bloom);
             m_ChromaticAberration.Init(context, profile.chromaticAberration);
             m_ColorGrading.Init(context, profile.colorGrading);
-            m_UserLut.Init(context, profile.userLut);
+
+			m_UserLut.Init(context, profile.userLut);
             m_Grain.Init(context, profile.grain);
             m_Vignette.Init(context, profile.vignette);
             m_Dithering.Init(context, profile.dithering);
@@ -294,6 +308,11 @@ namespace UnityEngine.PostProcessing
 #endif
 
             m_RenderTextureFactory.ReleaseAll();
+
+			if (_GamayunBool)
+			{
+				Graphics.Blit(_GamayunPostPro._GamayunTexture, destination);
+			}
         }
 
         void OnGUI()

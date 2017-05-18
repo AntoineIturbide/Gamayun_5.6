@@ -549,7 +549,6 @@ namespace Avatar2
                 dot = dot * 0.5f + 0.5f;
                 dot *= dot;
                 dot *= 2f;
-                Debug.Log(dot);
                 time_factor *= dot;
             }
 

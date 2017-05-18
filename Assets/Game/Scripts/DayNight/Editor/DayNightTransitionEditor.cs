@@ -44,6 +44,8 @@ public class DayNightTransitionEditor : Editor
     {
         var t = Target();
 
+        GUILayout.Label("OLD");
+
         //GUILayout.Label(t.mDayNight.get_value().ToString());
         GUILayout.HorizontalSlider(t.mDayNight.get_value(), 0, 1);
 
@@ -61,10 +63,25 @@ public class DayNightTransitionEditor : Editor
                 t.StartTransitioningToNight();
             }
         }
+
+        GUILayout.Label("NEW");
+        if (GUILayout.Button("-1"))
+        {
+            t.MinusOne();
+        }
+        if (GUILayout.Button("+1"))
+        {
+            t.PlusOne();
+        }
     }
 
     private void OnSceneGUI()
     {   
         var t = Target();
+    }
+
+    protected void Update()
+    {
+
     }
 }
