@@ -36,7 +36,7 @@ public class BaliseTrigger : MonoBehaviour
 				}
 				goToNight.isDay = isDay;
 			}
-			
+
 		}
 	}
 }

@@ -23,6 +23,16 @@ public class DayNightSong : MonoBehaviour {
 		}
 	}
 
+	public void SetTransition()
+	{
+		AkSoundEngine.SetState("MUSIC", "TRANSITION");
+	}
+
+	public void SetDayTime ()
+	{
+		AkSoundEngine.SetState("MUSIC", "DAY");
+	}
+
 	public IEnumerator PlayTransition()
 	{
 		AkSoundEngine.PostEvent("Stop" + night, gameObject);

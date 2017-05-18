@@ -36,15 +36,16 @@ public class DayNightTransition : MonoBehaviour {
 	[Range(0,1)]
     public float mGamayun = 0;
 
-	[Range(0, 1)]
+    [System.NonSerialized]
+    [Range(0, 1)]
 	public float almostThere = 0.75f;
 	public float mDayNightPostFxTarget = 0;
 	public float mDayNightPostFxCurrent = 0;
 	public Tween<float> mDayNightPostFx = new Tween<float>(
-		1,
+		0,
 		UnityTick.UPDATE,
 		Easing.DynaEase.Out,
-		1f/2f
+		1f/1.5f
 		);
 
 	private void Awake()
@@ -123,7 +124,10 @@ public class DayNightTransition : MonoBehaviour {
 		if (mDayNightPostFxCurrent > almostThere - 0.01f)
 			mDayNightPostFxCurrent = 1f;
 		SetDay();
-	}
+
+        mDayNightPostFx.current_value = Mathf.Clamp01(mDayNightPostFxCurrent + 0.25f);
+
+    }
     public void MinusOne()
     {
         mDayNight.SetTarget(Mathf.Clamp01(mDayNight.target_value - cStep));

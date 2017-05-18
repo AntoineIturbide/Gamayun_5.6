@@ -355,6 +355,7 @@ namespace Avatar2
                 if(new_ability_progress > 1f)
                 {
                     state.this_frame_translation = Vector3.zero;
+                    state.ability_progress = 0;
                     return;
                 }
                 state.this_frame_translation = GetDeltaFrameTranslation(last_ability_progress, new_ability_progress);
@@ -447,6 +448,15 @@ namespace Avatar2
             stall_factor = Mathf.Clamp01(stall_factor);
             stall_factor = 1 - stall_factor;
             stall_factor *= dot * dot;
+            if(stall_factor > state.stall_factor.target_value)
+            {
+                state.stall_factor.time_factor = 1 / 1f;
+            }
+            else
+            {
+                state.stall_factor.time_factor = 1 / 0.5f;
+            }
+
             state.stall_factor.SetTarget(stall_factor);
             state.fake_stall_gravity.SetTarget(config.stallGravity * stall_factor);
 
@@ -548,7 +558,6 @@ namespace Avatar2
                 float dot = Vector3.Dot(transform.forward, Vector3.up);
                 dot = dot * 0.5f + 0.5f;
                 dot *= dot;
-                dot *= 2f;
                 time_factor *= dot;
             }
 
@@ -563,6 +572,7 @@ namespace Avatar2
         private void MainBody_RotationCorrectionTick(float dt)
         {
             DiveRotationCorrectionTick(dt);
+            StallRotationCorrectionTick(dt);
             //GroundHitPreventionCorrectionTick(dt);
         }
 
@@ -579,6 +589,19 @@ namespace Avatar2
             x_axis_rotation *= 180;
             x_axis_rotation *= config.diveRotationFactor;
             x_axis_rotation *= diving * diving;
+
+            state.rotation *= Quaternion.AngleAxis(x_axis_rotation * dt, Vector3.right);
+        }
+
+        private void StallRotationCorrectionTick(float dt)
+        {
+            float stall = state.stall_factor.get_value();
+
+            float dot = Vector3.Dot(transform.forward, Vector3.up);
+            float x_axis_rotation = (dot * 0.5f + 0.5f);
+            x_axis_rotation *= 180;
+            x_axis_rotation *= 1f;
+            x_axis_rotation *= stall;
 
             state.rotation *= Quaternion.AngleAxis(x_axis_rotation * dt, Vector3.right);
         }

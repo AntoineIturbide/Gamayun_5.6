@@ -10,6 +10,8 @@ public class MenuController : MonoBehaviour
 
 	public Image fadeImage;
 	public Animator anim;
+
+	public AkBank bank;
 	// Use this for initialization
 	void Start () {
 		
@@ -31,6 +33,7 @@ public class MenuController : MonoBehaviour
 		Debug.Log("EBOLA");
 		anim.SetBool("Fade", true);
 		yield return new WaitUntil(() => fadeImage.color.a == 1);
+		bank.UnloadBank(gameObject);
 		SceneManager.LoadScene(levelName);
 	}
 }
