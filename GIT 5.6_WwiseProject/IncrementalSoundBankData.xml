@@ -3,16 +3,16 @@
 	<Platform GUID="{AA3D530F-5892-4C56-A1E3-88465DCAFF47}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Avatar" Hash="2441562473" Timestamp="131381336721957697"/>
-				<File Name="Forest" Hash="720915036" Timestamp="131381336721476415"/>
-				<File Name="General" Hash="3877116501" Timestamp="131381336721862443"/>
-				<File Name="Init" Hash="2384968274" Timestamp="131396007888650257"/>
-				<File Name="Music" Hash="330038666" Timestamp="131396007888555006"/>
+				<File Name="Avatar" Hash="1973129574" Timestamp="131396091187121616"/>
+				<File Name="Forest" Hash="1933688335" Timestamp="131396091188410040"/>
+				<File Name="General" Hash="2135233364" Timestamp="131396091191498250"/>
+				<File Name="Init" Hash="1094843729" Timestamp="131396091199489495"/>
+				<File Name="Music" Hash="864406362" Timestamp="131396091199404267"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3355153094" Timestamp="131396007888685348"/>
+				<File Name="" Hash="2732081603" Timestamp="131396091199524587"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

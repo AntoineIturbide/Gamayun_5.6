@@ -22,7 +22,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="D1M9qpJYVkyh44hGXcr/Rw=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="OFWKyHskvEiLogi8Bkw7o9to1jHy/NpHmVo5ArvCH0hueWHCaGIFTp7F1xhok6slZZA6bRKyLEii+Cxyl7aaVg=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="kLifOSWPU0iZZ6EZqBnz7gA7shD/////nBgfDS6kmUiZVkcJ9jd/XQE7shD/////"/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="kLifOSWPU0iZZ6EZqBnz7gC4qBH/////nBgfDS6kmUiZVkcJ9jd/XQG4qBH/////"/>
 				<Property Name="Interactive Music\x64_{0E364D16-4AF8-4421-B638-2AD5346F5542} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP9mJndiJnTZAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{0E98BB63-03F2-4CFF-B781-6687BFC50785} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAAgDhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{13408BDF-1F47-4F80-AF39-B1AFD8E3BE3E} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4qd2ImdWA5AAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -138,7 +138,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_20_0" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_2" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value=""/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_0" Type="string" Value="0v/oIN6bW0CTlx3IkZm/m3SaRVqXEthApZFMROLLO/pkmi6y3LChTKEB6oIRR8tooZzAbn+4Z02YZAo9b7w5nw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_2" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_0" Type="string" Value="JD26V7Y/i0CJnq3cwJipkg=="/>
