@@ -11,18 +11,22 @@ public class DayNightSong : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		AkSoundEngine.PostEvent("Play" + night, gameObject);
+		//AkSoundEngine.PostEvent("Play" + night, gameObject);
 		AkSoundEngine.SetState("MUSIC", "NIGHT");
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyDown(KeyCode.A))
+	void Update()
+	{
+		if(Input.GetKeyDown (KeyCode.Keypad1))
 		{
-			StartCoroutine(PlayTransition());
+			SetTransition();
+		}
+
+		if(Input.GetKeyDown(KeyCode.Keypad2))
+		{
+			SetDayTime();
 		}
 	}
-
 	public void SetTransition()
 	{
 		AkSoundEngine.SetState("MUSIC", "TRANSITION");
