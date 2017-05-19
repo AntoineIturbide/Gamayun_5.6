@@ -11,7 +11,7 @@ public class DayNightSong : MonoBehaviour {
 	// Use this for initialization
 	void Start ()
 	{
-		//AkSoundEngine.PostEvent("Play" + night, gameObject);
+		AkSoundEngine.PostEvent("Play" + night, gameObject);
 		AkSoundEngine.SetState("MUSIC", "NIGHT");
 	}
 	
