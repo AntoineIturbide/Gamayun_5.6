@@ -17,8 +17,8 @@
 			<Path>General.bnk</Path>
 			<IncludedEvents>
 				<Event Id="3464232719" Name="Clouds" ObjectPath="\Events\General\Clouds"/>
-				<Event Id="1128271304" Name="Crystal_Get" ObjectPath="\Events\General\Crystal_Get" MaxAttenuation="30.000000"/>
-				<Event Id="2431342447" Name="Crystal_Glow" ObjectPath="\Events\General\Crystal_Glow" MaxAttenuation="30.000000"/>
+				<Event Id="1128271304" Name="Crystal_Get" ObjectPath="\Events\General\Crystal_Get"/>
+				<Event Id="2431342447" Name="Crystal_Glow" ObjectPath="\Events\General\Crystal_Glow"/>
 				<Event Id="2898349872" Name="Dust_Start" ObjectPath="\Events\General\Dust_Start"/>
 				<Event Id="1300825244" Name="Dust_Stop" ObjectPath="\Events\General\Dust_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="937145663" Name="Ground_impact_Hard" ObjectPath="\Events\General\Ground_impact_Hard"/>
@@ -299,13 +299,13 @@
 				<Event Id="1396033513" Name="AMB_Grass_Start" ObjectPath="\Events\Forest\AMB_Grass_Start"/>
 				<Event Id="3242293763" Name="AMB_Grass_Stop" ObjectPath="\Events\Forest\AMB_Grass_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="261655774" Name="Flower_Grow" ObjectPath="\Events\Forest\Flower_Grow"/>
-				<Event Id="2427671096" Name="River_Start" ObjectPath="\Events\Forest\River_Start" MaxAttenuation="50.000000"/>
+				<Event Id="2427671096" Name="River_Start" ObjectPath="\Events\Forest\River_Start"/>
 				<Event Id="717165636" Name="River_Stop" ObjectPath="\Events\Forest\River_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="3076372940" Name="Touch_Grass_Start" ObjectPath="\Events\Forest\Touch_Grass_Start"/>
 				<Event Id="557071456" Name="Touch_Grass_Stop" ObjectPath="\Events\Forest\Touch_Grass_Stop" MaxAttenuation="0.000000"/>
 				<Event Id="1456296260" Name="Touch_Leaf_Start" ObjectPath="\Events\Forest\Touch_Leaf_Start"/>
 				<Event Id="2199972856" Name="Touch_Leaf_Stop" ObjectPath="\Events\Forest\Touch_Leaf_Stop" MaxAttenuation="0.000000"/>
-				<Event Id="948172004" Name="Touch_Waterfall_Start" ObjectPath="\Events\Forest\Touch_Waterfall_Start" MaxAttenuation="40.000000"/>
+				<Event Id="948172004" Name="Touch_Waterfall_Start" ObjectPath="\Events\Forest\Touch_Waterfall_Start"/>
 				<Event Id="513496600" Name="Touch_Waterfall_Stop" ObjectPath="\Events\Forest\Touch_Waterfall_Stop" MaxAttenuation="0.000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>

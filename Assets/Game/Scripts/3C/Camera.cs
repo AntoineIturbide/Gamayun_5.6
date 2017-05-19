@@ -41,6 +41,9 @@ namespace Avatar2
             [Header("Control")]
             public Vector2 controlAnlge = Vector2.one * 30f;
 
+            [Header("Trail")]
+            public Material mTrailMat;
+
         }
 
         // Configuration Instance
@@ -53,7 +56,7 @@ namespace Avatar2
          *********/
         public class State
         {
-            public Tween<Quaternion> smooth_rotation = new Tween<Quaternion>(Quaternion.identity, UnityTick.FIXED_UPDATE, SmoothRotationEasing, 1 / 2f);
+            public Tween<Quaternion> smooth_rotation = new Tween<Quaternion>(Quaternion.identity, UnityTick.FIXED_UPDATE, SmoothRotationEasing, 1 / 3.5f);
             public static Quaternion SmoothRotationEasing(Quaternion current, Quaternion target, float dt, float time_factor)
             {
                 float angle = Quaternion.Angle(current, target);
@@ -61,7 +64,10 @@ namespace Avatar2
                 return Quaternion.Slerp(current, target, angle * dt * time_factor);
             }
 
-            public Tween<Vector2> smooth_target_offset = new Tween<Vector2>(Vector2.zero, UnityTick.FIXED_UPDATE, Easing.DynaEase.Out, 1 / 0.5f);
+            public Tween<Vector2> smooth_target_offset = new Tween<Vector2>(Vector2.zero, UnityTick.FIXED_UPDATE, Easing.DynaEase.Out, 1 / 1.25f);
+
+            // Trail
+            public Tween<float> mTrailOpacity = new Tween<float>(0.2f, UnityTick.UPDATE, Easing.DynaEase.Out, 1 / 0.125f);
         }
 
         public State state = new State();
@@ -95,6 +101,8 @@ namespace Avatar2
             RefreshOffet();
 
             RefreshAnimator();
+
+            RefreshTrail();
         }
 
         private void FixedUpdate()
@@ -282,12 +290,22 @@ namespace Avatar2
             transform.localRotation = turn_rotation;
 
             // Dive
-            anim.SetBool("Diving", Mathf.Abs(config.character.state.wings_deployment.state.wings_deployment) < 0.75);
+            anim.SetBool("Diving", Mathf.Abs(config.character.state.wings_deployment.state.wings_deployment) < 0.5f);
         }
         public void OnWingsCast()
         {
             Animator anim = config.unityAnimator;
             anim.SetTrigger("Flap");
+        }
+
+        public void RefreshTrail()
+        {
+            Character chara = config.character;
+            bool flapping = chara.state.air_push.state.ability_progress > 0f;
+            state.mTrailOpacity.SetTarget(flapping ? 0.0f : Mathf.Lerp(0.75f, 0.2f, config.character.state.wings_deployment.state.wings_deployment));
+            state.mTrailOpacity.time_factor = flapping ? 1f / 0.05f : 1f / 2f;
+
+            config.mTrailMat.SetFloat("_Opacity", state.mTrailOpacity.get_value());
         }
 
 

@@ -3,6 +3,7 @@
 	Properties
 	{
 		_MainTex ("Texture", 2D) = "white" {}
+		_Opacity("Opacity", Range(0.,1.)) = 1.
 	}
 	SubShader
 	{
@@ -34,6 +35,7 @@
 
 			sampler2D _MainTex;
 			float4 _MainTex_ST;
+			float _Opacity;
 			
 			v2f vert (appdata v)
 			{
@@ -50,6 +52,7 @@
 				fixed4 col = tex2D(_MainTex, i.uv);
 
 				col.rgba = (float4)(clamp(0., 1., smoothstep(0.3, 0.75,i.vertex.w)));
+				col *= _Opacity;
 
 				// apply fog
 				UNITY_APPLY_FOG(i.fogCoord, col);
