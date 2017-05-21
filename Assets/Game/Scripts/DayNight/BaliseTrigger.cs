@@ -9,8 +9,7 @@ public class BaliseTrigger : MonoBehaviour
 	public GameObject particleSpawn;
 	public string eventName;
 	public Transform spawnLocation;
-
-	public GoToNight goToNight;
+	
 
 	bool isDay;
 	// Use this for initialization
@@ -34,7 +33,6 @@ public class BaliseTrigger : MonoBehaviour
 				{
 					eOnBaliseTriggered();
 				}
-				goToNight.isDay = isDay;
 			}
 
 		}

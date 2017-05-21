@@ -41,11 +41,8 @@ public class MenuController : MonoBehaviour
 	{
 		anim.SetBool("Fade", true);
 		yield return new WaitUntil(() => fadeImage.color.a == 1);
-<<<<<<< HEAD
 		bank.UnloadBank(bank.gameObject);
-=======
-		bank.UnloadBank(gameObject);
->>>>>>> e09cc52a5bb9798a24567e33242f0fe07f016b25
+
 		SceneManager.LoadScene(levelName);
 	}
 }

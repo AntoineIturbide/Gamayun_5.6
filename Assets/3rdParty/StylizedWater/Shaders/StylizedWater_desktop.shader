@@ -31,6 +31,9 @@ Shader "StylizedWater/Desktop" {
         [NoScaleOffset][Normal]_Normals ("Normals", 2D) = "bump" {}
         [NoScaleOffset]_Shadermap ("Shadermap", 2D) = "black" {}
         _Reflection ("Reflection", Cube) = "_Skybox" {}
+
+        _Displacement("Displacement", Vector) = (0,0,0,0)
+
         [HideInInspector]_Cutoff ("Alpha cutoff", Range(0,1)) = 0.5
     }
     SubShader {
@@ -86,6 +89,7 @@ Shader "StylizedWater/Desktop" {
             uniform float _Fresnelexponent;
             uniform float4 _FresnelColor;
             uniform float _RimDistance;
+            uniform float4 _Displacement;
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -105,7 +109,7 @@ Shader "StylizedWater/Desktop" {
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
-                o.uv0 = v.texcoord0;
+                o.uv0 = v.texcoord0 + _Displacement.xy * _Time.y;
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
                 o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
@@ -141,6 +145,7 @@ Shader "StylizedWater/Desktop" {
                 float WaveSpeed = (node_8305.g*(_Wavesspeed*0.1));
                 fixed mWaveSpeed = WaveSpeed;
                 fixed2 Tiling = (lerp( ((-20.0)*i.uv0), i.posWorld.rgb.rb, _Worldspacetiling )*(1.0 - _Tiling));
+                Tiling += _Displacement.xy * _Time.y;
                 fixed2 mTiling = Tiling;
                 fixed2 WavePanningV = (mTiling+mWaveSpeed*float2(0,1));
                 fixed3 node_4911 = UnpackNormal(tex2D(_Normals,WavePanningV));
@@ -293,6 +298,7 @@ Shader "StylizedWater/Desktop" {
             uniform float _Fresnelexponent;
             uniform float4 _FresnelColor;
             uniform float _RimDistance;
+            uniform float4 _Displacement; // GAMAYUN
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
@@ -313,7 +319,7 @@ Shader "StylizedWater/Desktop" {
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
-                o.uv0 = v.texcoord0;
+                o.uv0 = v.texcoord0 + _Displacement.xy * _Time.y; 
                 o.normalDir = UnityObjectToWorldNormal(v.normal);
                 o.tangentDir = normalize( mul( unity_ObjectToWorld, float4( v.tangent.xyz, 0.0 ) ).xyz );
                 o.bitangentDir = normalize(cross(o.normalDir, o.tangentDir) * v.tangent.w);
@@ -321,6 +327,7 @@ Shader "StylizedWater/Desktop" {
                 float WaveSpeed = (node_8305.g*(_Wavesspeed*0.1));
                 fixed mWaveSpeed = WaveSpeed;
                 fixed2 Tiling = (lerp( ((-20.0)*o.uv0), mul(unity_ObjectToWorld, v.vertex).rgb.rb, _Worldspacetiling )*(1.0 - _Tiling));
+                Tiling += _Displacement.xy * _Time.y;
                 fixed2 mTiling = Tiling;
                 fixed2 WavePanningV = (mTiling+mWaveSpeed*float2(0,1));
                 fixed3 node_4911 = UnpackNormal(tex2Dlod(_Normals,float4(WavePanningV,0.0,0)));
@@ -336,6 +343,7 @@ Shader "StylizedWater/Desktop" {
                 return o;
             }
             float4 frag(VertexOutput i) : COLOR {
+
                 #if UNITY_UV_STARTS_AT_TOP
                     float grabSign = -_ProjectionParams.x;
                 #else

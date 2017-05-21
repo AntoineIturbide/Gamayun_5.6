@@ -12,40 +12,30 @@ public class DayNightSong : MonoBehaviour {
 	void Start ()
 	{
 		AkSoundEngine.PostEvent("Play" + night, gameObject);
-		AkSoundEngine.SetState("MUSIC", "NIGHT");
 	}
 	
 	void Update()
 	{
-		if(Input.GetKeyDown (KeyCode.Keypad1))
+		if(Input.GetKeyDown (KeyCode.O))
 		{
 			SetTransition();
 		}
 
-		if(Input.GetKeyDown(KeyCode.Keypad2))
+		if(Input.GetKeyDown(KeyCode.P))
 		{
 			SetDayTime();
 		}
 	}
 	public void SetTransition()
 	{
-		AkSoundEngine.SetState("MUSIC", "TRANSITION");
+		AkSoundEngine.PostEvent("Stop" + night, gameObject);
+		AkSoundEngine.PostEvent("Play" + transition, gameObject);
 	}
 
 	public void SetDayTime ()
 	{
-		AkSoundEngine.SetState("MUSIC", "DAY");
-	}
-
-	public IEnumerator PlayTransition()
-	{
-		AkSoundEngine.PostEvent("Stop" + night, gameObject);
-		AkSoundEngine.PostEvent("Play" + transition, gameObject);
-
-		yield return new WaitForSeconds(tDuration);
-
 		AkSoundEngine.PostEvent("Stop" + transition, gameObject);
 		AkSoundEngine.PostEvent("Play" + day, gameObject);
-
 	}
+
 }

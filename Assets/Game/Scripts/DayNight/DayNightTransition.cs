@@ -122,7 +122,7 @@ public class DayNightTransition : MonoBehaviour {
         mDayNight.time_factor = 1f / mTransitionTime;
 		mDayNightPostFxCurrent += almostThere / 6f;
 		if (mDayNightPostFxCurrent > almostThere - 0.01f)
-			mDayNightPostFxCurrent = 1f;
+			mDayNightPostFxCurrent = 1.5f;
 		SetDay();
 
         mDayNightPostFx.current_value = Mathf.Clamp01(mDayNightPostFxCurrent + 0.25f);
@@ -133,8 +133,8 @@ public class DayNightTransition : MonoBehaviour {
         mDayNight.SetTarget(Mathf.Clamp01(mDayNight.target_value - cStep));
         mDayNight.time_factor = 1f / mTransitionTime;
 		mDayNightPostFxCurrent -= almostThere / 6f;
-		if (mDayNightPostFxCurrent < almostThere + 0.01f)
-			mDayNightPostFxCurrent = almostThere;
+		//if (mDayNightPostFxCurrent < almostThere + 0.01f)
+		//	mDayNightPostFxCurrent = almostThere;
 
 		SetNight();
 	}
