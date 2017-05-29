@@ -182,6 +182,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EVENT_TEST" ID="{DAED85EC-6DCA-4863-8687-97DAD4A820DD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{7A6EAD86-3474-4FD2-B464-BE2FC01E0CDB}" ShortID="631375053" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ElementList>
+								<Element ID="{81A4352F-CF17-4AAC-AC1C-86420079D9B9}" Global="false">
+									<ObjectRef Name="Waterfall" ID="{B12B47FE-18E9-4294-AF23-E865C6907FD1}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

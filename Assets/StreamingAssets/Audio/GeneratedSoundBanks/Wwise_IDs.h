@@ -27,6 +27,7 @@ namespace AK
         static const AkUniqueID CRYSTAL_GLOW = 2431342447U;
         static const AkUniqueID DUST_START = 2898349872U;
         static const AkUniqueID DUST_STOP = 1300825244U;
+        static const AkUniqueID EVENT_TEST = 1618187162U;
         static const AkUniqueID FLOWER_GROW = 261655774U;
         static const AkUniqueID GROUND_IMPACT_HARD = 937145663U;
         static const AkUniqueID GROUND_IMPACT_LIGHT = 3648287500U;

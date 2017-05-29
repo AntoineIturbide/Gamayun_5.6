@@ -1,12 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	84143797	Ground_Impact_Medium			\General\Ground_Impact_Medium	
-	261655774	Flower_Grow			\Forest\Flower_Grow	
 	344778205	Wind_High_Stop			\General\Wind_High_Stop	
 	350283794	Leaf_Impact_Hard			\General\Leaf_Impact_Hard	
 	431171811	Wind_Gust			\General\Wind_Gust	
-	445196183	Avatar_Wings_Flap			\Avatar\Avatar_Wings_Flap	
 	548087415	Wind_High_Start			\General\Wind_High_Start	
-	937145663	Ground_Impact_Hard			\General\Ground_Impact_Hard	
+	937145663	Ground_impact_Hard			\General\Ground_impact_Hard	
 	1128271304	Crystal_Get			\General\Crystal_Get	
 	1300825244	Dust_Stop			\General\Dust_Stop	
 	1471919116	Tree_Impact_Medium			\General\Tree_Impact_Medium	
@@ -19,6 +17,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2898349872	Dust_Start			\General\Dust_Start	
 	3237213113	Rock_Impact_Hard			\General\Rock_Impact_Hard	
 	3292957914	Tree_Impact_Hard			\General\Tree_Impact_Hard	
+	3464232719	Clouds			\General\Clouds	
 	3648287500	Ground_Impact_Light			\General\Ground_Impact_Light	
 	3870513327	Leaf_Impact_Light			\General\Leaf_Impact_Light	
 
@@ -27,70 +26,66 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3755642206	Speed_Activated			\Default Work Unit\Speed_Activated	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	25267835	SFX_Flap_Wings_06	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_06		9903
-	33045596	SFX_Wind_Gust_07	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_07_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_07		53483
-	34358653	SFX_Glow_Crystal_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Glow_Crystal_01_0ED39DC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Glow\SFX_Glow_Crystal_01		190331
-	38663733	SFX_Leaf_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Light\SFX_Leaf_Impact_Light_03		21252
-	54538486	SFX_Leaf_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Hard\SFX_Leaf_Impact_Hard_03		29567
-	60490939	SFX_Flap_Wings_05	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_05		10120
-	126573346	SFX_P_Speed_Up_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_P_Speed_Up_Loop_01_0ED39DC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Speed\SFX_P_Speed_Up_Loop_01		646279
-	130484165	SFX_Ground_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Medium\SFX_Ground_Impact_Medium_01		41751
-	135499669	SFX_Tree_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Hard\SFX_Tree_Impact_Hard_02		25899
-	144552209	SFX_Leaf_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Light\SFX_Leaf_Impact_Light_02		22517
-	149643528	SFX_Wind_Gust_15	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_15_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_15		64706
-	211851450	SFX_Rock_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Light\SFX_Rock_Impact_Light_01		44955
-	221576323	SFX_Leaf_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Hard\SFX_Leaf_Impact_Hard_01		33652
-	245460658	SFX_Flap_Wings_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_01		9451
-	302139153	SFX_Tree_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Hard\SFX_Tree_Impact_Hard_01		25596
-	315325880	SFX_Leaf_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Medium\SFX_Leaf_Impact_Medium_02		35787
-	333466490	SFX_Wind_Gust_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_04		45308
-	347059422	SFX_Flap_Wings_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_03		9856
-	352801880	SFX_Leaf_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Hard\SFX_Leaf_Impact_Hard_02		31014
-	366094998	SFX_Wind_Gust_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_01		31324
-	374782353	SFX_Rock_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Medium\SFX_Rock_Impact_Medium_01		45634
-	379095589	SFX_Wind_Gust_13	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_13_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_13		60286
-	436039712	SFX_Ground_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Hard\SFX_Ground_Impact_Hard_02		39793
-	452839136	SFX_Ground_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Medium\SFX_Ground_Impact_Medium_02		39309
-	454122473	SFX_Rock_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Medium\SFX_Rock_Impact_Medium_02		42256
-	475720587	AMB_Wind_High_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\AMB_Wind_High_Loop_01_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_High\AMB_Wind_High_Loop_01		767699
-	495628912	SFX_Ground_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Hard\SFX_Ground_Impact_Hard_01		43202
-	543843378	SFX_Wind_Gust_11	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_11_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_11		45466
-	554947884	SFX_Get_Crystal_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_01		59476
-	565634302	SFX_Flap_Wings_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_04		9397
-	612077196	SFX_Ground_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Light\SFX_Ground_Impact_Light_03		39055
-	625002022	SFX_Rock_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Hard\SFX_Rock_Impact_Hard_03		42309
-	628469498	SFX_Tree_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Light\SFX_Tree_Impact_Light_01		24947
-	637994166	SFX_Tree_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Light\SFX_Tree_Impact_Light_02		24897
-	646942324	SFX_Ground_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Light\SFX_Ground_Impact_Light_01		39164
-	648455295	SFX_Ground_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Light\SFX_Ground_Impact_Light_02		38942
-	650576223	SFX_Wind_Gust_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_03		33409
-	663752376	SFX_Get_Crystal_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_03		60614
-	684435115	SFX_Wind_Gust_12	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_12_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_12		42768
-	717227740	SFX_Wind_Gust_10	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_10_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_10		33317
-	723982505	SFX_P_Dust_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_P_Dust_Loop_01_0ED39DC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Dust\SFX_P_Dust_Loop_01		789806
-	770092279	SFX_Tree_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Hard\SFX_Tree_Impact_Hard_03		24967
-	775930499	SFX_Wind_Gust_09	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_09_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_09		39885
-	777550746	SFX_Ground_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Hard\SFX_Ground_Impact_Hard_03		39291
-	784495801	SFX_Rock_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Medium\SFX_Rock_Impact_Medium_03		43747
-	790060686	SFX_Leaf_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Medium\SFX_Leaf_Impact_Medium_01		37850
-	811472201	SFX_Ground_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Medium\SFX_Ground_Impact_Medium_03		35954
-	822945088	SFX_Rock_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Light\SFX_Rock_Impact_Light_03		44635
-	838152671	SFX_Flap_Wings_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_02		9648
-	859954182	SFX_Wind_Gust_05	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_05_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_05		32737
-	863625491	SFX_Tree_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Medium\SFX_Tree_Impact_Medium_03		24003
-	910868277	SFX_Get_Crystal_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_02		61147
-	925086853	SFX_Wind_Gust_06	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_06_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_06		40797
-	927030321	SFX_Get_Crystal_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_04		60169
-	927668869	SFX_Wind_Gust_14	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_14_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_14		59238
-	927781739	SFX_Flap_Wings_07	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_07_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wings_Flap\SFX_Flap_Wings_07		9845
-	931578101	SFX_Wind_Gust_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_02		44010
-	943385539	SFX_Tree_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Light\SFX_Tree_Impact_Light_03		24494
-	968933864	SFX_Rock_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Light\SFX_Rock_Impact_Light_02		42463
-	992379998	SFX_Rock_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Hard\SFX_Rock_Impact_Hard_01		45374
-	1002233470	SFX_Leaf_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Light\SFX_Leaf_Impact_Light_01		23363
-	1006313271	SFX_Wind_Gust_08	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_08_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_08		31022
-	1008207410	SFX_Tree_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Medium\SFX_Tree_Impact_Medium_02		26987
-	1018045290	SFX_Leaf_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Medium\SFX_Leaf_Impact_Medium_03		33308
-	1060240363	SFX_Tree_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Medium\SFX_Tree_Impact_Medium_01		24025
-	1064770129	SFX_Rock_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Hard\SFX_Rock_Impact_Hard_02		42962
+	13923630	SFX_Tree_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Light\SFX_Tree_Impact_Light_01		24947
+	47684476	SFX_Wind_Gust_15	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_15_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_15		72940
+	65062988	SFX_Wind_Gust_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_03_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_03		37539
+	103594195	SFX_Wind_Gust_08	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_08_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_08		35103
+	109500384	SFX_Wind_Gust_11	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_11_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_11		51319
+	134126672	SFX_Wind_Gust_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_02_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_02		49609
+	142813319	SFX_Clouds_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Clouds_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Clouds\SFX_Clouds_03		46280
+	161718998	SFX_Ground_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Light\SFX_Ground_Impact_Light_01		39164
+	162607335	SFX_Tree_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Medium\SFX_Tree_Impact_Medium_03		24003
+	191051775	SFX_Leaf_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Hard\SFX_Leaf_Impact_Hard_03		29567
+	216499347	SFX_Rock_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Hard\SFX_Rock_Impact_Hard_02		42962
+	217090849	SFX_Leaf_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Medium\SFX_Leaf_Impact_Medium_01		37850
+	229294757	SFX_Wind_Gust_14	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_14_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_14		66503
+	235883342	SFX_Wind_Gust_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_01_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_01		35425
+	248388343	SFX_Rock_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Medium\SFX_Rock_Impact_Medium_02		42256
+	250050703	SFX_Wind_Gust_05	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_05_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_05		36907
+	277597769	SFX_Ground_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Hard\SFX_Ground_Impact_Hard_02		39793
+	279329431	SFX_Leaf_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Hard\SFX_Leaf_Impact_Hard_01		33652
+	310666971	SFX_Rock_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Hard\SFX_Rock_Impact_Hard_03		42309
+	364323619	AMB_Wind_High_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\AMB_Wind_High_Loop_01_9D4A09E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_High\AMB_Wind_High_Loop_01		767699
+	371088286	SFX_Rock_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Medium\SFX_Rock_Impact_Medium_03		43747
+	382384803	SFX_Clouds_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Clouds_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Clouds\SFX_Clouds_01		74121
+	397762561	SFX_Tree_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Hard\SFX_Tree_Impact_Hard_01		25596
+	408918838	SFX_Tree_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Medium\SFX_Tree_Impact_Medium_02		26987
+	471077371	SFX_Get_Crystal_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_03		60614
+	479138004	SFX_Get_Crystal_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_02		61147
+	484557643	SFX_Ground_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Medium\SFX_Ground_Impact_Medium_02		39309
+	490954121	SFX_Wind_Gust_09	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_09_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_09		44689
+	519840710	SFX_Ground_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Hard\SFX_Ground_Impact_Hard_03		39291
+	593212541	SFX_Wind_Gust_07	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_07_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_07		60456
+	618374614	SFX_Tree_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Hard\SFX_Tree_Impact_Hard_02		25899
+	697038555	SFX_Wind_Gust_13	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_13_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_13		69254
+	697404858	SFX_Tree_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Medium\SFX_Tree_Impact_Medium_01		24025
+	740705825	SFX_P_Speed_Up_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_P_Speed_Up_Loop_01_0ED39DC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Speed\SFX_P_Speed_Up_Loop_01		646279
+	751516072	SFX_Wind_Gust_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_04_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_04		51142
+	765120625	SFX_Glow_Crystal_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Glow_Crystal_01_0ED39DC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Glow\SFX_Glow_Crystal_01		190331
+	786172652	SFX_Rock_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Medium\SFX_Rock_Impact_Medium_01		45634
+	793295265	SFX_P_Dust_Loop_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_P_Dust_Loop_01_0ED39DC9.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Dust\SFX_P_Dust_Loop_01		789806
+	794505307	SFX_Rock_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Light\SFX_Rock_Impact_Light_02		42463
+	815744301	SFX_Ground_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Medium\SFX_Ground_Impact_Medium_03		35954
+	815793715	SFX_Tree_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Light\SFX_Tree_Impact_Light_03		24494
+	816810295	SFX_Ground_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Light\SFX_Ground_Impact_Light_02		38942
+	822489685	SFX_Leaf_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Light\SFX_Leaf_Impact_Light_03		21252
+	827744501	SFX_Clouds_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Clouds_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Clouds\SFX_Clouds_02		46112
+	868161312	SFX_Leaf_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Light\SFX_Leaf_Impact_Light_02		22517
+	890750820	SFX_Leaf_Impact_Hard_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Hard_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Hard\SFX_Leaf_Impact_Hard_02		31014
+	926937132	SFX_Wind_Gust_12	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_12_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_12		48113
+	937486882	SFX_Ground_Impact_Medium_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Medium_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Medium\SFX_Ground_Impact_Medium_01		41751
+	945910942	SFX_Rock_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Hard\SFX_Rock_Impact_Hard_01		45374
+	968443028	SFX_Get_Crystal_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_01		59476
+	985799354	SFX_Get_Crystal_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Get_Crystal_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Crystal_Get\SFX_Get_Crystal_04		60169
+	989071493	SFX_Tree_Impact_Hard_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Hard_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Hard\SFX_Tree_Impact_Hard_03		24967
+	992695927	SFX_Rock_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Light\SFX_Rock_Impact_Light_03		44635
+	996371090	SFX_Rock_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Rock_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Rock_Impact_Light\SFX_Rock_Impact_Light_01		44955
+	999490408	SFX_Leaf_Impact_Medium_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Medium_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Medium\SFX_Leaf_Impact_Medium_02		35787
+	1003633465	SFX_Leaf_Impact_Medium_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Medium_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Medium\SFX_Leaf_Impact_Medium_03		33308
+	1012573222	SFX_Tree_Impact_Light_02	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Tree_Impact_Light_02_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Tree_Impact_Light\SFX_Tree_Impact_Light_02		24897
+	1013783039	SFX_Ground_Impact_Hard_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Hard_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Hard\SFX_Ground_Impact_Hard_01		43202
+	1016318391	SFX_Leaf_Impact_Light_01	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Leaf_Impact_Light_01_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Leaf_Impact_Light\SFX_Leaf_Impact_Light_01		23363
+	1031267356	SFX_Wind_Gust_10	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_10_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_10		37461
+	1035595751	SFX_Wind_Gust_06	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Wind_Gust_06_9E684A3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Wind_Gust\SFX_Wind_Gust_06		46196
+	1068828285	SFX_Ground_Impact_Light_03	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Ground_Impact_Light_03_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\General\Ground_Impact_Light\SFX_Ground_Impact_Light_03		39055
 

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Attenuation Name="Crystal" ID="{4BAEA6DB-3943-4A11-B6C6-D3820EC3495C}" ShortID="297327535">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="30"/>
+						<Property Name="RadiusMax" Type="Real64" Value="800"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -21,7 +21,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>30</XPos>
+											<XPos>800</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -97,7 +97,7 @@
 				</Attenuation>
 				<Attenuation Name="Waterfall" ID="{B1216941-B936-4359-8954-4F764E561948}" ShortID="855197971">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="40"/>
+						<Property Name="RadiusMax" Type="Real64" Value="2200"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -113,7 +113,53 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>40</XPos>
+											<XPos>2200</XPos>
+											<YPos>-200</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
+						</VolumeDryUsage>
+						<VolumeWetGameUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetGameUsage>
+						<VolumeWetUserUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+						</VolumeWetUserUsage>
+						<LowPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</LowPassFilterUsage>
+						<HighPassFilterUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</HighPassFilterUsage>
+						<SpreadUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</SpreadUsage>
+						<FocusUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+						</FocusUsage>
+					</CurveUsageInfoList>
+				</Attenuation>
+				<Attenuation Name="TEST" ID="{9FAF1B3F-8582-40EC-B674-10D6E8BF7018}" ShortID="383312403">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+					</PropertyList>
+					<CurveUsageInfoList>
+						<VolumeDryUsage>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="VolumeDry" ID="{21F97C5D-FB9A-4E68-9D82-6363114515FF}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="3"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>0</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>

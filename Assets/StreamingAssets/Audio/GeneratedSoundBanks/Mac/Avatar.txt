@@ -6,6 +6,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3791449267	Wings_flap			\Avatar\Wings_flap	
 	4204744159	Avatar_Glide_Stop			\Avatar\Avatar_Glide_Stop	
 
+Effect plug-ins	ID	Name	Type				Notes
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	5105053	SFX_Flap_Wings_04	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_04_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_04		9397
 	24540918	SFX_Flap_Wings_07	E:\TRAVAIL\Gamayun\GIT 5.6\GIT 5.6_WwiseProject\.cache\Mac\SFX\SFX_Flap_Wings_07_C47F2D1B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Avatar\Wings_Flap\SFX_Flap_Wings_07		9845

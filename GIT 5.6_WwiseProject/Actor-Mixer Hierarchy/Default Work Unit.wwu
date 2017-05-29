@@ -179,6 +179,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="River" ID="{168931A4-D139-424C-9C8A-66D6FA2C5E91}" ShortID="102428282">
 							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -265,6 +266,7 @@
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Waterfall" ID="{B12B47FE-18E9-4294-AF23-E865C6907FD1}" ShortID="655448366">
 							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -326,6 +328,16 @@
 								</Reference>
 							</ReferenceList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="TEST" ID="{4F0F9313-5C39-45FD-977A-3782987AF424}" ShortID="2609600">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{77538D81-3556-44D2-910C-8836E102C964}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{769193BC-5F63-4320-9328-562E5BCE9BAC}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="General" ID="{6EC09CA1-B87F-4D67-9864-0A3D6FBC399F}" ShortID="353338717">
@@ -340,10 +352,11 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Crystal_Glow" ID="{2611DF26-B6C5-40CE-B75D-1307FB621BBC}" ShortID="648303394">
 							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-39</Value>
+										<Value>-25</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

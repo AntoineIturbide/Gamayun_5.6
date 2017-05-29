@@ -1,18 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <IncrementalBankBuild Version="6" Flags="878078161">
-	<Platform GUID="{AA3D530F-5892-4C56-A1E3-88465DCAFF47}">
+	<Platform GUID="{D99A3A81-F7AE-47CF-9ACA-751166363D53}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Avatar" Hash="1973129574" Timestamp="131396091187121616"/>
-				<File Name="Forest" Hash="1933688335" Timestamp="131396091188410040"/>
-				<File Name="General" Hash="2135233364" Timestamp="131396091191498250"/>
-				<File Name="Init" Hash="1094843729" Timestamp="131396091199489495"/>
-				<File Name="Music" Hash="864406362" Timestamp="131396091199404267"/>
+				<File Name="Avatar" Hash="1973129574" Timestamp="131405501517453155"/>
+				<File Name="Forest" Hash="4241403028" Timestamp="131405501517327822"/>
+				<File Name="General" Hash="2135233364" Timestamp="131405501517418061"/>
+				<File Name="Init" Hash="2219534679" Timestamp="131405501517703823"/>
+				<File Name="Music" Hash="864406362" Timestamp="131405501517678760"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2732081603" Timestamp="131396091199524587"/>
+				<File Name="" Hash="2492597834" Timestamp="131405501517713849"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{AA3D530F-5892-4C56-A1E3-88465DCAFF47}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Avatar" Hash="907161841" Timestamp="131405508594470076"/>
+				<File Name="Forest" Hash="4163239286" Timestamp="131405510730980283"/>
+				<File Name="General" Hash="3964325211" Timestamp="131405510735848232"/>
+				<File Name="Init" Hash="1094843729" Timestamp="131405489924539288"/>
+				<File Name="Music" Hash="2483030608" Timestamp="131405508599363097"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3246772257" Timestamp="131405510735938474"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

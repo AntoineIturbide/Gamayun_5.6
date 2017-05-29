@@ -8,6 +8,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1396033513	AMB_Grass_Start			\Forest\AMB_Grass_Start	
 	1456296260	Touch_Leaf_Start			\Forest\Touch_Leaf_Start	
 	1494607340	AMB_Forest_Start			\Forest\AMB_Forest_Start	
+	1618187162	EVENT_TEST			\Forest\EVENT_TEST	
 	2199972856	Touch_Leaf_Stop			\Forest\Touch_Leaf_Stop	
 	2427671096	River_Start			\Forest\River_Start	
 	3076372940	Touch_Grass_Start			\Forest\Touch_Grass_Start	
