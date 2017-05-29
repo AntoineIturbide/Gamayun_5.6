@@ -17,6 +17,9 @@
 				<Event Name="Crystal_Glow" ID="{18EBEE5D-3304-4DAD-B5C5-A617E4690BDA}">
 					<ChildrenList>
 						<Action Name="Play" ID="{6A93DBDA-9663-4F58-9F23-BDC2A9FED7F8}" ShortID="135971240" Type="Play" Scope="One" Global="false">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ElementList>
 								<Element ID="{6C57AF2F-565E-494B-9CC5-03C998DC4687}" Global="false">
 									<ObjectRef Name="Crystal_Glow" ID="{2611DF26-B6C5-40CE-B75D-1307FB621BBC}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}"/>

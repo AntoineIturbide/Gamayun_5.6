@@ -6,7 +6,6 @@
 				<SoundBank Name="Forest" ID="{31D668DB-FCF2-47DA-995A-3902BBC21F48}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Touch_Waterfall_Start" ID="{9C10638A-474F-4003-8BB8-094448FE5CF7}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Forest" ID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="River_Start" ID="{3A1DCC02-0357-4118-A33A-70A7A6429AD2}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Grass" ID="{BCA42E27-7339-413B-8A4A-0B0B4D188A87}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Flower_Grow" ID="{B5C29D80-A33F-4164-9D9B-5E0B22DED333}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
@@ -25,7 +24,6 @@
 						<ObjectRef Name="Flower_Grow" ID="{845CA389-03D9-4C4C-835F-3E79D976C358}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Forest_Stop" ID="{43C194BA-E10B-4C4D-BDBE-9EAC8AFFEAD7}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="AMB_Grass_Start" ID="{CC9326F7-EC09-4C55-B3E4-3FF91B2469A9}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Forest" ID="{B22E9A64-B0DC-4CA1-A101-EA821147CB68}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Touch_Grass_Start" ID="{C6EC0C4F-D982-4E0B-B183-D475A07F5650}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Grass_Touch" ID="{31A3CE3A-3AAC-4EA9-911D-A960F9E30D4B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Touch_Leaf_Stop" ID="{8D9420EB-EC18-4F3B-941B-50D75BDC7E25}" WorkUnitID="{57BA3D24-3FB6-408B-899E-ADDCC098A992}" Filter="7" Origin="Manual"/>
@@ -52,7 +50,6 @@
 						<ObjectRef Name="Crystal_Get" ID="{1682136E-841B-466E-BFD8-49184C6A0887}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Speed" ID="{7EEC4DF2-5862-4677-9684-1F602D29EB13}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Leaf_Impact_Medium" ID="{2A7516EE-E24A-4683-97D6-60DC94E9C0EF}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="General" ID="{A5BE934C-520E-4699-B561-28E711671F42}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rock_Impact_Hard" ID="{72F8B3D3-4A56-4732-AE5B-49076B84CF21}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wind_High_Stop" ID="{A8316CF4-ECB6-473B-B2AB-6C07A2E0D6DF}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Rock_Impact_Medium" ID="{6DC231A9-C7B3-4795-B51C-FE75DDFB8FF2}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
@@ -72,7 +69,6 @@
 						<ObjectRef Name="Rock_Impact_Hard" ID="{0237F3DE-72F9-4CBC-AB52-D9D26BB614DB}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wind_High_Start" ID="{45E661D4-6326-4CF4-8187-6E20A903AEA9}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wind_Gust" ID="{E736F682-2142-4D0B-9298-E0062F583671}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="General" ID="{6EC09CA1-B87F-4D67-9864-0A3D6FBC399F}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Crystal_Glow" ID="{18EBEE5D-3304-4DAD-B5C5-A617E4690BDA}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Dust_Start" ID="{8539F896-ED1A-4DFB-BB18-992B7979FE34}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Tree_Impact_Light" ID="{5935B06A-2AE7-4E6E-8938-75F49A74B435}" WorkUnitID="{A5BE934C-520E-4699-B561-28E711671F42}" Filter="7" Origin="Manual"/>
@@ -85,14 +81,12 @@
 				<SoundBank Name="Avatar" ID="{C88A5538-247B-48BC-8BA2-08BC064C3BA3}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Avatar_Glide" ID="{443E53A4-ED58-4041-BA1D-4D231343E1BB}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Avatar" ID="{20E8FFD2-9BDE-405B-9397-1DC89199BF9B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Scream" ID="{F41D89AB-787C-4174-BD24-022B32C28E87}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Scream" ID="{2E6DE5A9-9C0D-441B-A4DB-3A9407EAA846}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Glide_Start" ID="{4D0B925E-80A3-441C-B777-3787304CAD88}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Stalling" ID="{E96EFA90-9433-4672-ACE8-524BC1292D9A}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Stalling" ID="{31C63C55-79B7-47AB-B6C7-2CAFB805DA9B}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Brake" ID="{1BBC5A73-F8D9-490B-8293-0897D5A175CD}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Avatar" ID="{9773F303-B87C-4943-A35C-FC168BF44764}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wings_Flap" ID="{7B25823E-C48E-4A0E-92D0-8D9D34C7DF56}" WorkUnitID="{5A459A74-1297-40D8-A591-4C44E2CB3BFA}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Avatar_Glide_Stop" ID="{4ABA65ED-2A5B-4DC6-9AAC-A84A2C194DB1}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Wings_flap" ID="{729F7A92-E848-4EC4-8580-F5141DCCF124}" WorkUnitID="{9773F303-B87C-4943-A35C-FC168BF44764}" Filter="7" Origin="Manual"/>
@@ -105,7 +99,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Stop_Music_Night_Loop" ID="{9AFF3FB6-0D60-4303-80F0-7C1C5C267213}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_Night_Loop" ID="{708ADB00-BFF7-45AB-8219-F43529EC9D0B}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Default Work Unit" ID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music_Transition_Loop" ID="{F387753C-3C48-465C-97F4-84C3722D9A3D}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Ambient_Day" ID="{E399E467-FB41-466E-9BE5-0F46A26B0776}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_Ambient_Day" ID="{2011E58C-D007-46CF-AE92-36EBE9EC2746}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
@@ -113,12 +106,10 @@
 						<ObjectRef Name="Play_Interactive_Music" ID="{3B673EFD-46FE-4711-9570-282E828BC39F}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="MUSIC_INTERACTIVE" ID="{92818C38-F4A1-473E-9ED3-2932033AFE33}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_Ambient_Transition" ID="{D9F437DA-4C13-476A-A2F4-8E875F418B74}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Gamayun_Day_Loop_Ambient_01" ID="{44ED7A5F-B7FF-4928-920F-E0B47634A196}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Transition_Loop" ID="{5C6E0550-736F-4957-BEA5-83C8090DFEE1}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_Ambient_Night" ID="{D60DD17A-D5D0-4B62-8E61-2F353B95F682}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Day_Loop" ID="{4299AEC1-D7D1-4B69-B2EA-77457042FED6}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music_Day_Loop" ID="{B5A7D232-6FA5-4C65-9BFC-FB2511D62188}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="MUSIC" ID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Ambient_Night" ID="{3ADD3B68-7F33-4C95-B17A-73CC9C055005}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Play_Music_Day_Loop" ID="{31B92ACC-60E9-4D7E-9B0B-6B460F860AA7}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Night_Loop" ID="{89310E53-716A-4DEA-ABE7-4DE1C210B2DE}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
@@ -126,7 +117,6 @@
 						<ObjectRef Name="Stop_Interactive_Music" ID="{E610676C-A843-4ED2-8326-7C31710A36F4}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music_Ambient_Day" ID="{F0EDB922-14F7-4EF5-9EAA-805A4B764C31}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Stop_Music_Ambient_Transition" ID="{D1054A9E-56A1-4F11-8B3A-17963E543700}" WorkUnitID="{723DC5EC-9D6B-4C91-8C6B-2DBF83CCD97E}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="Gamayun_Day_Loop_Ambient_01" ID="{13408BDF-1F47-4F80-AF39-B1AFD8E3BE3E}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="Music_Ambient_Transition" ID="{ACCCAECD-CACB-4F93-AE57-74578D467A26}" WorkUnitID="{6CBA20E8-C0E9-463D-ACA8-8F8E5C1D6F4A}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

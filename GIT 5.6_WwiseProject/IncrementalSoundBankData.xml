@@ -3,32 +3,32 @@
 	<Platform GUID="{D99A3A81-F7AE-47CF-9ACA-751166363D53}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Avatar" Hash="1973129574" Timestamp="131405501517453155"/>
-				<File Name="Forest" Hash="4241403028" Timestamp="131405501517327822"/>
-				<File Name="General" Hash="2135233364" Timestamp="131405501517418061"/>
+				<File Name="Avatar" Hash="1973129574" Timestamp="131405568194522724"/>
+				<File Name="Forest" Hash="598653267" Timestamp="131405568194577874"/>
+				<File Name="General" Hash="2427313229" Timestamp="131405568194658085"/>
 				<File Name="Init" Hash="2219534679" Timestamp="131405501517703823"/>
-				<File Name="Music" Hash="864406362" Timestamp="131405501517678760"/>
+				<File Name="Music" Hash="864406362" Timestamp="131405568194046461"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2492597834" Timestamp="131405501517713849"/>
+				<File Name="" Hash="4142628131" Timestamp="131405568194688169"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
 	<Platform GUID="{AA3D530F-5892-4C56-A1E3-88465DCAFF47}">
 		<Banks>
 			<Language ID="0">
-				<File Name="Avatar" Hash="907161841" Timestamp="131405508594470076"/>
-				<File Name="Forest" Hash="4163239286" Timestamp="131405510730980283"/>
-				<File Name="General" Hash="3964325211" Timestamp="131405510735848232"/>
+				<File Name="Avatar" Hash="1973129574" Timestamp="131405579203909023"/>
+				<File Name="Forest" Hash="598653267" Timestamp="131405579203979214"/>
+				<File Name="General" Hash="2427313229" Timestamp="131405579204084493"/>
 				<File Name="Init" Hash="1094843729" Timestamp="131405489924539288"/>
-				<File Name="Music" Hash="2483030608" Timestamp="131405508599363097"/>
+				<File Name="Music" Hash="864406362" Timestamp="131405579204976867"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="3246772257" Timestamp="131405510735938474"/>
+				<File Name="" Hash="3246772257" Timestamp="131405579205016971"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
